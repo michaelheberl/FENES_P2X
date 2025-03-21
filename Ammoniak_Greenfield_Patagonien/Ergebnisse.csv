@@ -106,6 +106,6 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Levelized Cost of Nitrogen;calc_lcon_asu;0,04;€/kg
 ;;Levelized Cost of Ammonia;calc_lcof_hb;686,09;€/t
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;2,81;ct/kWh
-;;Gesamtkosten pro kg Wasserstoff;calc_cost_h2;2,2;€/kg
+;;Gesamtkosten pro kg Wasserstoff;calc_cost_h2;2,55;€/kg
 ;;Gesamtkosten pro kg Stickstoff;calc_cost_n2;0,04;€/kg
-;;Gesamtkosten pro t Ammoniak;calc_cost_nh3;623,9;€/t
+;;Gesamtkosten pro t Ammoniak;calc_cost_nh3;686,09;€/t
