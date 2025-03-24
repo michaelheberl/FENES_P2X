@@ -58,7 +58,7 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Installierte Kapazität;result_bat_kapa;12932,81;kWh
 ;;Installierte Leistung;result_bat_leistung;3233,2;kW
 ;;Batterie Ausspeichern;result_bat_flowsum_out;1417,07;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;1623,17;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;1623,81;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;2741754,7;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;34271,93;€/a
 ;;Annuität;calc_annuity_bat;360468,85;€/a
@@ -88,8 +88,8 @@ Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;0,0;MWh/a
 ;;Investitionskosten verzinst;calc_verzinstinvest_wka;13908773,34;€
 ;;Gesamte Kosten pro Jahr;calc_cost_wkaon;860839,88;€/a
 ;;;;;
-Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;1969,87;MWh/a
-;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;196,99;€/a
+Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;1969,23;MWh/a
+;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;196,92;€/a
 ;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;0,0;€/a
 ;;;;;
 ;Waerme Verkauf;Waermeverkauf;result_qverkauf_flowsum;0,0;MWh_th/a
