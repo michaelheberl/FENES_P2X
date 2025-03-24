@@ -56,6 +56,7 @@ Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€ h / kg a
 Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Annuität je Kapazität;annuity_bat_kapa;13,94;€/ kWh a
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ;;Installierte Kapazität;result_bat_kapa;12932,81;kWh
 ;;Installierte Leistung;result_bat_leistung;3233,2;kW
 ;;Batterie Ausspeichern;result_bat_flowsum_out;1417,07;MWh/a
@@ -66,6 +67,8 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Investitionskosten verzinst;calc_verzinstinvest_bat;5407032,69;€
 ;;Gesamte Kosten pro Jahr;calc_cost_bat;394740,78;€/a
 =======
+=======
+>>>>>>> Stashed changes
 ;;Installierte Kapazität;result_bat_kapa;13897,55;kWh
 ;;Installierte Leistung;result_bat_leistung;3474,39;kW
 ;;Batterie Ausspeichern;result_bat_flowsum_out;1485,66;MWh/a
@@ -75,6 +78,9 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Annuität;calc_annuity_bat;387358,78;€/a
 ;;Investitionskosten verzinst;calc_verzinstinvest_bat;5810381,63;€
 ;;Gesamte Kosten pro Jahr;calc_cost_bat;424187,3;€/a
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 ;;;;;
 Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;0;MWh/a
@@ -101,9 +107,15 @@ Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;0;MWh/a
 ;;Gesamte Kosten pro Jahr;calc_cost_wkaon;875386,41;€/a
 ;;;;;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;1969,23;MWh/a
 ;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;196,92;€/a
 ;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;0,0;€/a
+=======
+Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;2101,82;MWh/a
+;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;210,18;€/a
+;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;0;€/a
+>>>>>>> Stashed changes
 =======
 Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;2101,82;MWh/a
 ;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;210,18;€/a
