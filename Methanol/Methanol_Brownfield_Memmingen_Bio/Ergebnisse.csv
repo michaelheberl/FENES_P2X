@@ -78,6 +78,9 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;2572,32;MWh/a
 ;;Kosten Netzbezug;calc_strombezug_kosten;437037,05;€/a
 ;;;;;
+;Biogas;Biogas Bezug;result_biogasbezug_flowsum;0,0;kg_CH4/a
+;;Kosten Biogas;calc_biogasbezug_kosten;0,0;€/a
+;;;;;
 ;PV;Annuität je Leistung;annuity_pv;80,41;€/ kWa
 ;;Installierte Leistung;result_pv_leistung;4862,87;kW
 ;;PV-Strom Erzeugung;result_pv_flowsum_generation;6188,94;MWh/a
@@ -99,8 +102,8 @@ Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;2572,32;MWh/a
 ;;Gesamte Kosten pro Jahr;calc_cost_wkaon;1323913,64;€/a
 ;;;;;
 Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;7752,15;MWh/a
-;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;;€/a
-;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;775,22;€/a
+;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;775,22;€/a
+;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;0,0;€/a
 ;;;;;
 ;Waerme Verkauf;Waermeverkauf;result_qverkauf_flowsum;955,2;MWh_th/a
 ;;Schattenvariable Einnahmen Wärmeverkauf;calc_einnahmen_qverkauf_schattenvariable;0,1;€/a
@@ -117,9 +120,9 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Pro Jahr;Gesamte Betriebskosten pro Jahr;calc_opex_gesamt;1224357,7;€/a
 ;;Gesamte Annuität pro Jahr;calc_annuity_gesamt;2433527,71;€/a
-;;Gesamte Einnahmen pro Jahr;calc_einnahmen_gesamt;1603264,88;€/a
+;;Gesamte Einnahmen pro Jahr;calc_einnahmen_gesamt;1602489,67;€/a
 ;;Gesamte Ausgaben pro Jahr;calc_ausgaben_gesamt;3657885,41;€/a
-;;Gewinn/Verlust pro Jahr;calc_GuV;-2054620,53;€/a
+;;Gewinn/Verlust pro Jahr;calc_GuV;-2055395,74;€/a
 ;;Gesamte Ausgaben pro Jahr Technologien;calc_cost_gesamt;3657885,41;€/a
 ;;;;;
 ;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;3,83;ct/kWh
