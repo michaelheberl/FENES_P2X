@@ -68,7 +68,7 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Installierte Kapazität;result_bat_kapa;4576,05;kWh
 ;;Installierte Leistung;result_bat_leistung;1144,01;kW
 ;;Batterie Ausspeichern;result_bat_flowsum_out;1043,37;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;1194,22;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;1194,23;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;970122,55;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;12126,53;€/a
 ;;Annuität;calc_annuity_bat;127545,68;€/a
