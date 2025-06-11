@@ -99,8 +99,8 @@ Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;1194,24;MWh/a
 ;;Gesamte Kosten pro Jahr;calc_cost_wkaon;729464,51;€/a
 ;;;;;
 Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;1735,49;MWh/a
-;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;;€/a
-;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;173,55;€/a
+;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;173,55;€/a
+;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;0,0;€/a
 ;;;;;
 ;Waerme Verkauf;Waermeverkauf;result_qverkauf_flowsum;0,0;MWh_th/a
 ;;Schattenvariable Einnahmen Wärmeverkauf;calc_einnahmen_qverkauf_schattenvariable;0,0;€/a
@@ -117,9 +117,9 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Pro Jahr;Gesamte Betriebskosten pro Jahr;calc_opex_gesamt;748973,2;€/a
 ;;Gesamte Annuität pro Jahr;calc_annuity_gesamt;1425218,42;€/a
-;;Gesamte Einnahmen pro Jahr;calc_einnahmen_gesamt;1647348,13;€/a
+;;Gesamte Einnahmen pro Jahr;calc_einnahmen_gesamt;1647174,58;€/a
 ;;Gesamte Ausgaben pro Jahr;calc_ausgaben_gesamt;2174191,62;€/a
-;;Gewinn/Verlust pro Jahr;calc_GuV;-526843,49;€/a
+;;Gewinn/Verlust pro Jahr;calc_GuV;-527017,04;€/a
 ;;Gesamte Ausgaben pro Jahr Technologien;calc_cost_gesamt;2174191,62;€/a
 ;;;;;
 ;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;1,96;ct/kWh
