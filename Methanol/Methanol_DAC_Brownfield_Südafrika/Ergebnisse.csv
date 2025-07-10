@@ -67,8 +67,8 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Annuität je Kapazität;annuity_bat_kapa;13,94;€/ kWh a
 ;;Installierte Kapazität;result_bat_kapa;0,0;kWh
 ;;Installierte Leistung;result_bat_leistung;0,0;kW
-;;Batterie Ausspeichern;result_bat_flowsum_out;-0,0;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;-0,0;MWh/a
+;;Batterie Ausspeichern;result_bat_flowsum_out;0,0;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;0,0;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;0,0;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;0,0;€/a
 ;;Annuität;calc_annuity_bat;0,0;€/a
@@ -124,7 +124,7 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;2,54;ct/kWh
 ;;Levelized Cost of PV;calc_lcoe_pv;;ct/kWh
-;;Levelized Cost of Battery;calc_lcoe_bat;-0,0;ct/kWh Speichermenge
+;;Levelized Cost of Battery;calc_lcoe_bat;0,0;ct/kWh Speichermenge
 ;;Levelized Cost of Electricity;calc_lcoe_mix;;ct/kWh
 ;;Levelized Cost of Heatpump;calc_lcoh_hp;;ct/kWh_th
 ;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,0;ct/kWh_th
