@@ -148,3 +148,6 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Gesamtkosten pro kg Wasserstoff;calc_cost_h2;3,44;€/kg
 ;;Gesamtkosten pro kg Kohlendioxid;calc_cost_co2;0,05;€/kg
 ;;Gesamtkosten pro t Methanol;calc_cost_ch3oh;867,75;€/t
+;;;;;
+;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;1,08;€/kg_CH3OH
+;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;1,08;€/kg_CH3OH
