@@ -56,8 +56,8 @@ Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€ h / kg a
 ;;;;;
 ;Wärmespeicher;Annuität je Kapazität;annuity_qs;0,18;€/ kWh_th a
 ;;Installierte Kapazität;result_qs_kapa;2284,48;kWh_th
-;;Einspeichern Wasserstoff;result_qs_flowsum_in;98457,68;kg_H2/a
-;;Ausspeichern Wasserstoff;result_qs_flowsum_out;91947,46;kg_H2/a
+;;Einspeichern Wasserstoff;result_qs_flowsum_in;98457,65;kWh_th/a
+;;Ausspeichern Wasserstoff;result_qs_flowsum_out;91947,46;kWh_th/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_qs;6465,08;€
 ;;Betriebskosten Fix;calc_opex_fix_qs;193,95;€/a
 ;;Annuität;calc_annuity_qs;420,56;€/a
@@ -107,7 +107,7 @@ Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;7288,45;MWh/a
 ;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;728,85;€/a
 ;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;0,0;€/a
 ;;;;;
-;Waerme Verkauf;Waermeverkauf;result_qverkauf_flowsum;121,33;MWh_th/a
+;Waerme Verkauf;Waermeverkauf;result_qverkauf_flowsum;121,36;MWh_th/a
 ;;Schattenvariable Einnahmen Wärmeverkauf;calc_einnahmen_qverkauf_schattenvariable;0,01;€/a
 ;;Einnahmen aus Wärmeverkauf;calc_einnnahmen_qverkauf;0,0;€/a
 ;;;;;
