@@ -77,7 +77,7 @@ Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;0,0;MWh/a
 ;;Investitionskosten verzinst;calc_verzinstinvest_wka;31436883,87;€
 ;;Gesamte Kosten pro Jahr;calc_cost_wkaon;1667807,21;€/a
 ;;;;;
-Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;14304,45;MWh/a
+Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;14304,46;MWh/a
 ;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;1430,45;€/a
 ;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;0,0;€/a
 ;;;;;
@@ -109,3 +109,6 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Gesamtkosten pro kg Wasserstoff;calc_cost_h2;3,75;€/kg
 ;;Gesamtkosten pro kg Stickstoff;calc_cost_n2;0,04;€/kg
 ;;Gesamtkosten pro t Ammoniak;calc_cost_nh3;932,06;€/t
+;;;;;
+;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;1,4;€/kg_NH3
+;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;1,33;€/kg_NH3

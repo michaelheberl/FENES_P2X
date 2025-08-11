@@ -109,3 +109,6 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Gesamtkosten pro kg Wasserstoff;calc_cost_h2;2,49;€/kg
 ;;Gesamtkosten pro kg Stickstoff;calc_cost_n2;0,04;€/kg
 ;;Gesamtkosten pro t Ammoniak;calc_cost_nh3;674,15;€/t
+;;;;;
+;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;1,55;€/kg_NH3
+;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;1,16;€/kg_NH3
