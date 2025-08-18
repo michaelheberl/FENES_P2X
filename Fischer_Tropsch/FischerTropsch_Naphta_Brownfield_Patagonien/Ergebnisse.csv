@@ -127,19 +127,19 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Gesamte Ausgaben pro Jahr Technologien;calc_cost_gesamt;10015999,98;€/a
 ;;;;;
 ;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;1,96;ct/kWh
-;;Levelized Cost of PV;calc_lcoe_pv;;ct/kWh
-;;Levelized Cost of Battery;calc_lcoe_bat;;ct/kWh Speichermenge
-;;Levelized Cost of Electricity;calc_lcoe_mix;;ct/kWh
-;;Levelized Cost of Heatpump;calc_lcoh_hp;;ct/kWh_th
+;;Levelized Cost of PV;calc_lcoe_pv;0,0;ct/kWh
+;;Levelized Cost of Battery;calc_lcoe_bat;0,0;ct/kWh Speichermenge
+;;Levelized Cost of Electricity;calc_lcoe_mix;1,96;ct/kWh
+;;Levelized Cost of Heatpump;calc_lcoh_hp;0,01;ct/kWh_th
 ;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,01;ct/kWh_th
-;;Levelized Cost of Heat;calc_lcoh_q;;ct/kWh_th
+;;Levelized Cost of Heat;calc_lcoh_q;0,01;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;1,2;€/kg Speichermenge
-;;Levelized Cost of Electrolysis;calc_lcoh_pem;;€/kg
-;;Levelized Cost of Hydrogen;calc_lcoh_h2;;€/kg
-;;Levelized Cost of Carbon;calc_lcon_dac;;€/kg
-;;Levelized Cost of Naphtha;calc_lcof_naph;;€/t
-;;Levelized Cost of Kerosin;calc_lcof_saf;;€/t
-;;Levelized Cost of FT (Kerosin+Naphtha);calc_lcof_ft;;€/t
+;;Levelized Cost of Electrolysis;calc_lcoh_pem;1,98;€/kg
+;;Levelized Cost of Hydrogen;calc_lcoh_h2;2,1;€/kg
+;;Levelized Cost of Carbon;calc_lcon_dac;0,16;€/kg
+;;Levelized Cost of Naphtha;calc_lcof_naph;2970,84;€/t
+;;Levelized Cost of Kerosin;calc_lcof_saf;2916,65;€/t
+;;Levelized Cost of FT (Kerosin+Naphtha);calc_lcof_ft;2906,92;€/t
 ;;;;;
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;1,96;ct/kWh
 ;;Gesamtkosten pro kWh thermisch;calc_cost_q;0,01;ct/kWh_th
@@ -150,45 +150,3 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;4,01;€/kg_SAF
 ;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;3,43;€/kg_SAF
 ;;;calc_cost_naph;7478,58;
-;;;;1,96;
-;;;;0,0;
-;;;;;
-;;;;1,96;
-;;;;1,2;
-;;;;1,98;
-;;;;2,1;
-;;;;0,01;
-;;;;0,01;
-;;;;0,01;
-;;;;0,16;
-;;;;2970,84;
-;;;;2916,65;
-;;;;2906,92;
-;;;;1,96;
-;;;;0,01;
-;;;;2,1;
-;;;;0,16;
-;;;;2916,65;
-;;;;7478,58;
-;;;;4,01;
-;;;;3,43;
-;;;;0,0;
-;;;;1,96;
-;;;;1,2;
-;;;;1,98;
-;;;;2,1;
-;;;;0,01;
-;;;;0,01;
-;;;;0,01;
-;;;;0,16;
-;;;;2970,84;
-;;;;2916,65;
-;;;;2906,92;
-;;;;1,96;
-;;;;0,01;
-;;;;2,1;
-;;;;0,16;
-;;;;2916,65;
-;;;;7478,58;
-;;;;4,01;
-;;;;3,43;
