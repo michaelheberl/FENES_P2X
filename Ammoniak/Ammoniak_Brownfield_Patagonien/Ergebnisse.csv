@@ -97,14 +97,14 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Gewinn/Verlust pro Jahr;calc_GuV;358158,08;€/a
 ;;Gesamte Ausgaben pro Jahr Technologien;calc_cost_gesamt;1768612,43;€/a
 ;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;1,96;ct/kWh
-;;Levelized Cost of PV;calc_lcoe_pv;;ct/kWh
+;;Levelized Cost of PV;calc_lcoe_pv;0,0;ct/kWh
 ;;Levelized Cost of Battery;calc_lcoe_bat;0,0;ct/kWh Speichermenge
-;;Levelized Cost of Electricity;calc_lcoe_mix;;ct/kWh
+;;Levelized Cost of Electricity;calc_lcoe_mix;1,96;ct/kWh
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;1,28;€/kg Speichermenge
-;;Levelized Cost of Electrolysis;calc_lcoh_pem;;€/kg
-;;Levelized Cost of Hydrogen;calc_lcoh_h2;;€/kg
-;;Levelized Cost of Nitrogen;calc_lcon_asu;;€/kg
-;;Levelized Cost of Ammonia;calc_lcof_hb;;€/t
+;;Levelized Cost of Electrolysis;calc_lcoh_pem;1,91;€/kg
+;;Levelized Cost of Hydrogen;calc_lcoh_h2;2,0;€/kg
+;;Levelized Cost of Nitrogen;calc_lcon_asu;0,04;€/kg
+;;Levelized Cost of Ammonia;calc_lcof_hb;571,17;€/t
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;1,96;ct/kWh
 ;;Gesamtkosten pro kg Wasserstoff;calc_cost_h2;2,0;€/kg
 ;;Gesamtkosten pro kg Stickstoff;calc_cost_n2;0,04;€/kg
@@ -112,18 +112,3 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;0,71;€/kg_NH3
 ;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;0,66;€/kg_NH3
-;;;;1,96;
-;;;;0,0;
-;;;;0,0;
-;;;;1,96;
-;;;;1,28;
-;;;;1,91;
-;;;;2,0;
-;;;;0,04;
-;;;;571,17;
-;;;;1,96;
-;;;;2,0;
-;;;;0,04;
-;;;;571,17;
-;;;;0,71;
-;;;;0,66;
