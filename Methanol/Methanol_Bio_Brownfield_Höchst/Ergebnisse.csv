@@ -129,7 +129,7 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;3,77;ct/kWh
 ;;Levelized Cost of PV;calc_lcoe_pv;7,62;ct/kWh
-;;Levelized Cost of Battery;calc_lcoe_bat;;ct/kWh Speichermenge
+;;Levelized Cost of Battery;calc_lcoe_bat;0,0;ct/kWh Speichermenge
 ;;Levelized Cost of Electricity;calc_lcoe_mix;4,23;ct/kWh
 ;;Levelized Cost of Heatpump;calc_lcoh_hp;0,02;ct/kWh_th
 ;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,01;ct/kWh_th

@@ -54,8 +54,8 @@ Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€ h / kg a
 ;;;;;
 ;Wärmespeicher;Annuität je Kapazität;annuity_qs;0,18;€/ kWh_th a
 ;;Installierte Kapazität;result_qs_kapa;4189,58;kWh_th
-;;Einspeichern Wasserstoff;result_qs_flowsum_in;209121,8;kg_H2/a
-;;Ausspeichern Wasserstoff;result_qs_flowsum_out;191943,79;kg_H2/a
+;;Einspeichern Wasserstoff;result_qs_flowsum_in;209121,8;kWh_th/a
+;;Ausspeichern Wasserstoff;result_qs_flowsum_out;191943,79;kWh_th/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_qs;11856,52;€
 ;;Betriebskosten Fix;calc_opex_fix_qs;355,7;€/a
 ;;Annuität;calc_annuity_qs;771,28;€/a
@@ -123,17 +123,17 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Gesamte Ausgaben pro Jahr Technologien;calc_cost_gesamt;2174191,62;€/a
 ;;;;;
 ;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;1,96;ct/kWh
-;;Levelized Cost of PV;calc_lcoe_pv;;ct/kWh
-;;Levelized Cost of Battery;calc_lcoe_bat;-0,0;ct/kWh Speichermenge
-;;Levelized Cost of Electricity;calc_lcoe_mix;;ct/kWh
-;;Levelized Cost of Heatpump;calc_lcoh_hp;;ct/kWh_th
+;;Levelized Cost of PV;calc_lcoe_pv;0,0;ct/kWh
+;;Levelized Cost of Battery;calc_lcoe_bat;0,0;ct/kWh Speichermenge
+;;Levelized Cost of Electricity;calc_lcoe_mix;1,96;ct/kWh
+;;Levelized Cost of Heatpump;calc_lcoh_hp;0,01;ct/kWh_th
 ;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,01;ct/kWh_th
-;;Levelized Cost of Heat;calc_lcoh_q;;ct/kWh_th
+;;Levelized Cost of Heat;calc_lcoh_q;0,01;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;1,28;€/kg Speichermenge
-;;Levelized Cost of Electrolysis;calc_lcoh_pem;;€/kg
-;;Levelized Cost of Hydrogen;calc_lcoh_h2;;€/kg
-;;Levelized Cost of Carbon;calc_lcon_dac;;€/kg
-;;Levelized Cost of Methanol;calc_lcof_ms;;€/t
+;;Levelized Cost of Electrolysis;calc_lcoh_pem;1,91;€/kg
+;;Levelized Cost of Hydrogen;calc_lcoh_h2;2,01;€/kg
+;;Levelized Cost of Carbon;calc_lcon_dac;0,16;€/kg
+;;Levelized Cost of Methanol;calc_lcof_ms;714,07;€/t
 ;;;;;
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;1,96;ct/kWh
 ;;Gesamtkosten pro kWh thermisch;calc_cost_q;0,01;ct/kWh_th

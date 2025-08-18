@@ -54,8 +54,8 @@ Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€ h / kg a
 ;;;;;
 ;Wärmespeicher;Annuität je Kapazität;annuity_qs;0,18;€/ kWh_th a
 ;;Installierte Kapazität;result_qs_kapa;18403,01;kWh_th
-;;Einspeichern Wasserstoff;result_qs_flowsum_in;196490,56;kg_H2/a
-;;Ausspeichern Wasserstoff;result_qs_flowsum_out;155280,6;kg_H2/a
+;;Einspeichern Wasserstoff;result_qs_flowsum_in;196490,56;kWh_th/a
+;;Ausspeichern Wasserstoff;result_qs_flowsum_out;155280,6;kWh_th/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_qs;52080,52;€
 ;;Betriebskosten Fix;calc_opex_fix_qs;1562,42;€/a
 ;;Annuität;calc_annuity_qs;3387,91;€/a
