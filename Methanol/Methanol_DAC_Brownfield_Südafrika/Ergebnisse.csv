@@ -9,16 +9,16 @@ Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;101,85;€/ kWa
 ;;Investitionskosten verzinst;calc_verzinstinvest_pem;9409958,18;€
 ;;Gesamte Kosten pro Jahr;calc_cost_pem;609080,44;€/a
 ;;;;;
-;Methanolsynthese;Annuität je Leistung;annuity_ms;468,39;€ h/ kg a
+;Methanolsynthese;Annuität je Leistung;annuity_ms;478,7;€ h/ kg a
 ;;Methanolproduktion;result_ms_flowsum_ch3ohout;2500104,0;kg_CH3OH/a
 ;;Wasserstoffbedarf;result_ms_flowsum_h2in;472519,66;kg_H2/a
 ;;Kohlendioxidbedarf;result_ms_flowsum_co2in;3437643,0;kg_CO2/a
 ;;Strombedarf;result_ms_flowsum_elin;3750,16;MWh/a
-;;Investitionskosten unverzinst;calc_gesamtinvest_ms;1427000,0;€
-;;Betriebskosten Fix;calc_opex_fix_ms;71350,0;€/a
-;;Annuität;calc_annuity_ms;133679,62;€/a
-;;Investitionskosten verzinst;calc_verzinstinvest_ms;3341990,44;€
-;;Gesamte Kosten pro Jahr;calc_cost_ms;205029,62;€/a
+;;Investitionskosten unverzinst;calc_gesamtinvest_ms;1458394,0;€
+;;Betriebskosten Fix;calc_opex_fix_ms;72919,7;€/a
+;;Annuität;calc_annuity_ms;136620,57;€/a
+;;Investitionskosten verzinst;calc_verzinstinvest_ms;3415514,23;€
+;;Gesamte Kosten pro Jahr;calc_cost_ms;209540,27;€/a
 ;;;;;
 ;Heatpump;Annuität je Leistung;annuity_hp;56,17;€/ kW_th a
 ;;Installierte Leistung;result_hp_leistung;194,83;kW_el
@@ -67,8 +67,8 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Annuität je Kapazität;annuity_bat_kapa;13,94;€/ kWh a
 ;;Installierte Kapazität;result_bat_kapa;0,0;kWh
 ;;Installierte Leistung;result_bat_leistung;0,0;kW
-;;Batterie Ausspeichern;result_bat_flowsum_out;-0,0;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;-0,0;MWh/a
+;;Batterie Ausspeichern;result_bat_flowsum_out;0,0;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;0,0;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;0,0;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;0,0;€/a
 ;;Annuität;calc_annuity_bat;0,0;€/a
@@ -112,15 +112,15 @@ Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;3658,7;MWh/a
 ;Methanol Verkauf;Methanolverkauf;result_ch3ohverkauf_flowsum;2500104,0;kg_CH3OH/a
 ;;Einnahmen aus Methanolverkauf;calc_einnahmen_ch3ohverkauf;1500062,4;€/a
 ;;;;;
-Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinvest_gesamt;34631780,43;€
-;;Gesamte unverzinste Investitionskosten;calc_gesamtinvest;18026630,55;€
+Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinvest_gesamt;34705304,22;€
+;;Gesamte unverzinste Investitionskosten;calc_gesamtinvest;18058024,55;€
 ;;;;;
-;Pro Jahr;Gesamte Betriebskosten pro Jahr;calc_opex_gesamt;929760,59;€/a
-;;Gesamte Annuität pro Jahr;calc_annuity_gesamt;1618323,52;€/a
+;Pro Jahr;Gesamte Betriebskosten pro Jahr;calc_opex_gesamt;931330,29;€/a
+;;Gesamte Annuität pro Jahr;calc_annuity_gesamt;1621264,47;€/a
 ;;Gesamte Einnahmen pro Jahr;calc_einnahmen_gesamt;1559586,53;€/a
-;;Gesamte Ausgaben pro Jahr;calc_ausgaben_gesamt;2548084,1;€/a
-;;Gewinn/Verlust pro Jahr;calc_GuV;-988497,57;€/a
-;;Gesamte Ausgaben pro Jahr Technologien;calc_cost_gesamt;2548084,1;€/a
+;;Gesamte Ausgaben pro Jahr;calc_ausgaben_gesamt;2552594,76;€/a
+;;Gewinn/Verlust pro Jahr;calc_GuV;-993008,23;€/a
+;;Gesamte Ausgaben pro Jahr Technologien;calc_cost_gesamt;2552594,76;€/a
 ;;;;;
 ;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;2,54;ct/kWh
 ;;Levelized Cost of PV;calc_lcoe_pv;0,0;ct/kWh
@@ -133,13 +133,13 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Levelized Cost of Electrolysis;calc_lcoh_pem;2,38;€/kg
 ;;Levelized Cost of Hydrogen;calc_lcoh_h2;2,49;€/kg
 ;;Levelized Cost of Carbon;calc_lcon_dac;0,17;€/kg
-;;Levelized Cost of Methanol;calc_lcof_ms;820,41;€/t
+;;Levelized Cost of Methanol;calc_lcof_ms;822,21;€/t
 ;;;;;
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;2,54;ct/kWh
 ;;Gesamtkosten pro kWh thermisch;calc_cost_q;0,02;ct/kWh_th
 ;;Gesamtkosten pro kg Wasserstoff;calc_cost_h2;2,49;€/kg
 ;;Gesamtkosten pro kg Kohlendioxid;calc_cost_co2;0,17;€/kg
-;;Gesamtkosten pro t Methanol;calc_cost_ch3oh;820,41;€/t
+;;Gesamtkosten pro t Methanol;calc_cost_ch3oh;822,21;€/t
 ;;;;;
 ;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;1,02;€/kg_CH3OH
 ;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;1,0;€/kg_CH3OH
