@@ -117,18 +117,3 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;0,88;€/kg_NH3
 ;;;result_h2bezug_flowsum;160545,82;
 ;;;calc_h2bezug_kosten;802729,09;
-;;;;3,77;
-;;;;7,62;
-;;;;0,0;
-;;;;4,0;
-;;;;0,85;
-;;;;3,24;
-;;;;3,26;
-;;;;0,04;
-;;;;686,65;
-;;;;4,0;
-;;;;3,26;
-;;;;0,04;
-;;;;686,65;
-;;;;0,89;
-;;;;0,88;
