@@ -112,3 +112,4 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;0,71;€/kg_NH3
 ;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;0,66;€/kg_NH3
+;;;calc_lcose_ges;2,27;
