@@ -135,10 +135,10 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,01;ct/kWh_th
 ;;Levelized Cost of Heat;calc_lcoh_q;0,02;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;1,14;€/kg Speichermenge
-;;Levelized Cost of Electrolysis;calc_lcoh_pem;3,33;€/kg
-;;Levelized Cost of Hydrogen;calc_lcoh_h2;3,45;€/kg
-;;Levelized Cost of Carbon;calc_lcon_mea;0,05;€/kg
-;;Levelized Cost of Methanol;calc_lcof_ms;877,71;€/t
+;;Levelized Cost of Electrolysis;calc_lcoh_pem;3,7;€/kg
+;;Levelized Cost of Hydrogen;calc_lcoh_h2;3,82;€/kg
+;;Levelized Cost of Carbon;calc_lcon_mea;0,06;€/kg
+;;Levelized Cost of Methanol;calc_lcof_ms;963,42;€/t
 ;;;;;
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;4,42;ct/kWh
 ;;Gesamtkosten pro kWh thermisch;calc_cost_q;0,02;ct/kWh_th
@@ -148,3 +148,4 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;1,26;€/kg_CH3OH
 ;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;1,22;€/kg_CH3OH
+;;;calc_lcose_ges;5,16;

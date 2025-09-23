@@ -70,8 +70,8 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Annuität je Kapazität;annuity_bat_kapa;13,94;€/ kWh a
 ;;Installierte Kapazität;result_bat_kapa;0,0;kWh
 ;;Installierte Leistung;result_bat_leistung;0,0;kW
-;;Batterie Ausspeichern;result_bat_flowsum_out;-0,0;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;-0,0;MWh/a
+;;Batterie Ausspeichern;result_bat_flowsum_out;0,0;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;0,0;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;0,0;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;0,0;€/a
 ;;Annuität;calc_annuity_bat;0,0;€/a
@@ -142,12 +142,12 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,01;ct/kWh_th
 ;;Levelized Cost of Heat;calc_lcoh_q;0,02;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;0,9;€/kg Speichermenge
-;;Levelized Cost of Electrolysis;calc_lcoh_pem;3,2;€/kg
-;;Levelized Cost of Hydrogen;calc_lcoh_h2;3,3;€/kg
-;;Levelized Cost of Carbon;calc_lcon_mea;0,05;€/kg
-;;Levelized Cost of Naphtha;calc_lcof_naph;3855,43;€/t
-;;Levelized Cost of Kerosin;calc_lcof_saf;3801,23;€/t
-;;Levelized Cost of FT (Kerosin+Naphtha);calc_lcof_ft;3791,51;€/t
+;;Levelized Cost of Electrolysis;calc_lcoh_pem;3,51;€/kg
+;;Levelized Cost of Hydrogen;calc_lcoh_h2;3,61;€/kg
+;;Levelized Cost of Carbon;calc_lcon_mea;0,06;€/kg
+;;Levelized Cost of Naphtha;calc_lcof_naph;4522,83;€/t
+;;Levelized Cost of Kerosin;calc_lcof_saf;4468,64;€/t
+;;Levelized Cost of FT (Kerosin+Naphtha);calc_lcof_ft;4458,92;€/t
 ;;;;;
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;3,65;ct/kWh
 ;;Gesamtkosten pro kWh thermisch;calc_cost_q;0,02;ct/kWh_th
@@ -157,4 +157,6 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;5,54;€/kg_SAF
 ;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;5,22;€/kg_SAF
+;;;calc_lcose_ges;4,27;
+;;;calc_lcosh_ges;3,95;
 ;;;calc_cost_naph;9746,75;
