@@ -46,8 +46,8 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Annuität je Kapazität;annuity_bat_kapa;13,94;€/ kWh a
 ;;Installierte Kapazität;result_bat_kapa;0,0;kWh
 ;;Installierte Leistung;result_bat_leistung;0,0;kW
-;;Batterie Ausspeichern;result_bat_flowsum_out;-0,0;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;-0,0;MWh/a
+;;Batterie Ausspeichern;result_bat_flowsum_out;0,0;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;0,0;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;0,0;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;0,0;€/a
 ;;Annuität;calc_annuity_bat;0,0;€/a
@@ -98,13 +98,13 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Gesamte Ausgaben pro Jahr Technologien;calc_cost_gesamt;2104455,29;€/a
 ;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;2,54;ct/kWh
 ;;Levelized Cost of PV;calc_lcoe_pv;0,0;ct/kWh
-;;Levelized Cost of Battery;calc_lcoe_bat;-0,0;ct/kWh Speichermenge
+;;Levelized Cost of Battery;calc_lcoe_bat;0,0;ct/kWh Speichermenge
 ;;Levelized Cost of Electricity;calc_lcoe_mix;2,54;ct/kWh
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;0,71;€/kg Speichermenge
-;;Levelized Cost of Electrolysis;calc_lcoh_pem;2,37;€/kg
-;;Levelized Cost of Hydrogen;calc_lcoh_h2;2,47;€/kg
+;;Levelized Cost of Electrolysis;calc_lcoh_pem;2,65;€/kg
+;;Levelized Cost of Hydrogen;calc_lcoh_h2;2,75;€/kg
 ;;Levelized Cost of Nitrogen;calc_lcon_asu;0,04;€/kg
-;;Levelized Cost of Ammonia;calc_lcof_hb;665,95;€/t
+;;Levelized Cost of Ammonia;calc_lcof_hb;726,74;€/t
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;2,54;ct/kWh
 ;;Gesamtkosten pro kg Wasserstoff;calc_cost_h2;2,47;€/kg
 ;;Gesamtkosten pro kg Stickstoff;calc_cost_n2;0,04;€/kg
@@ -112,3 +112,4 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;0,84;€/kg_NH3
 ;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;0,82;€/kg_NH3
+;;;calc_lcose_ges;3,1;

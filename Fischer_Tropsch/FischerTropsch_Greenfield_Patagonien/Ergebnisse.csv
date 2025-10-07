@@ -54,8 +54,8 @@ Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€ h / kg a
 ;;;;;
 ;Wärmespeicher;Annuität je Kapazität;annuity_qs;0,18;€/ kWh_th a
 ;;Installierte Kapazität;result_qs_kapa;109541,1;kWh_th
-;;Einspeichern Wasserstoff;result_qs_flowsum_in;994256,24;kg_H2/a
-;;Ausspeichern Wasserstoff;result_qs_flowsum_out;739581,31;kg_H2/a
+;;Einspeichern Wasserstoff;result_qs_flowsum_in;994256,24;kWh_th/a
+;;Ausspeichern Wasserstoff;result_qs_flowsum_out;739581,31;kWh_th/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_qs;310001,3;€
 ;;Betriebskosten Fix;calc_opex_fix_qs;9300,04;€/a
 ;;Annuität;calc_annuity_qs;20166,03;€/a
@@ -68,7 +68,7 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Installierte Kapazität;result_bat_kapa;198122,11;kWh
 ;;Installierte Leistung;result_bat_leistung;49530,53;kW
 ;;Batterie Ausspeichern;result_bat_flowsum_out;15767,22;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;18088,99;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;18085,15;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;42001886,49;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;525023,58;€/a
 ;;Annuität;calc_annuity_bat;5522146,65;€/a
@@ -98,8 +98,8 @@ Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;0,0;MWh/a
 ;;Investitionskosten verzinst;calc_verzinstinvest_wka;127402960,06;€
 ;;Gesamte Kosten pro Jahr;calc_cost_wkaon;7885206,39;€/a
 ;;;;;
-Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;19131,61;MWh/a
-;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;1913,16;€/a
+Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;19135,45;MWh/a
+;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;1913,55;€/a
 ;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;0,0;€/a
 ;;;;;
 ;Waerme Verkauf;Waermeverkauf;result_qverkauf_flowsum;4862,26;MWh_th/a

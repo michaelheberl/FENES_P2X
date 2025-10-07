@@ -69,7 +69,7 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Installierte Kapazität;result_bat_kapa;0,0;kWh
 ;;Installierte Leistung;result_bat_leistung;0,0;kW
 ;;Batterie Ausspeichern;result_bat_flowsum_out;0,0;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;0,0;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;-0,0;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;0,0;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;0,0;€/a
 ;;Annuität;calc_annuity_bat;0,0;€/a
@@ -127,19 +127,19 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Gesamte Ausgaben pro Jahr Technologien;calc_cost_gesamt;12193949,47;€/a
 ;;;;;
 ;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;2,54;ct/kWh
-;;Levelized Cost of PV;calc_lcoe_pv;;ct/kWh
-;;Levelized Cost of Battery;calc_lcoe_bat;;ct/kWh Speichermenge
-;;Levelized Cost of Electricity;calc_lcoe_mix;;ct/kWh
-;;Levelized Cost of Heatpump;calc_lcoh_hp;;ct/kWh_th
+;;Levelized Cost of PV;calc_lcoe_pv;0,0;ct/kWh
+;;Levelized Cost of Battery;calc_lcoe_bat;0,0;ct/kWh Speichermenge
+;;Levelized Cost of Electricity;calc_lcoe_mix;2,54;ct/kWh
+;;Levelized Cost of Heatpump;calc_lcoh_hp;0,02;ct/kWh_th
 ;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,0;ct/kWh_th
-;;Levelized Cost of Heat;calc_lcoh_q;;ct/kWh_th
+;;Levelized Cost of Heat;calc_lcoh_q;0,02;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;0,68;€/kg Speichermenge
-;;Levelized Cost of Electrolysis;calc_lcoh_pem;;€/kg
-;;Levelized Cost of Hydrogen;calc_lcoh_h2;;€/kg
-;;Levelized Cost of Carbon;calc_lcon_dac;;€/kg
-;;Levelized Cost of Naphtha;calc_lcof_naph;;€/t
-;;Levelized Cost of Kerosin;calc_lcof_saf;;€/t
-;;Levelized Cost of FT (Kerosin+Naphtha);calc_lcof_ft;;€/t
+;;Levelized Cost of Electrolysis;calc_lcoh_pem;2,92;€/kg
+;;Levelized Cost of Hydrogen;calc_lcoh_h2;3,05;€/kg
+;;Levelized Cost of Carbon;calc_lcon_dac;0,18;€/kg
+;;Levelized Cost of Naphtha;calc_lcof_naph;4178,95;€/t
+;;Levelized Cost of Kerosin;calc_lcof_saf;4124,76;€/t
+;;Levelized Cost of FT (Kerosin+Naphtha);calc_lcof_ft;4115,03;€/t
 ;;;;;
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;2,54;ct/kWh
 ;;Gesamtkosten pro kWh thermisch;calc_cost_q;0,02;ct/kWh_th
@@ -149,46 +149,5 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;4,88;€/kg_SAF
 ;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;4,54;€/kg_SAF
+;;;calc_lcose_ges;3,35;
 ;;;calc_cost_naph;9020,2;
-;;;;2,54;
-;;;;0,0;
-;;;;;
-;;;;2,54;
-;;;;0,68;
-;;;;2,51;
-;;;;2,65;
-;;;;0,0;
-;;;;0,02;
-;;;;0,02;
-;;;;0,17;
-;;;;3572,07;
-;;;;3517,88;
-;;;;3508,16;
-;;;;2,54;
-;;;;0,02;
-;;;;2,65;
-;;;;0,17;
-;;;;3517,88;
-;;;;9020,2;
-;;;;4,88;
-;;;;4,54;
-;;;;0,0;
-;;;;2,54;
-;;;;0,68;
-;;;;2,51;
-;;;;2,65;
-;;;;0,0;
-;;;;0,02;
-;;;;0,02;
-;;;;0,17;
-;;;;3572,07;
-;;;;3517,88;
-;;;;3508,16;
-;;;;2,54;
-;;;;0,02;
-;;;;2,65;
-;;;;0,17;
-;;;;3517,88;
-;;;;9020,2;
-;;;;4,88;
-;;;;4,54;

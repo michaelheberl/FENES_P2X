@@ -139,12 +139,12 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,01;ct/kWh_th
 ;;Levelized Cost of Heat;calc_lcoh_q;0,02;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;1,63;€/kg Speichermenge
-;;Levelized Cost of Electrolysis;calc_lcoh_pem;3,07;€/kg
-;;Levelized Cost of Hydrogen;calc_lcoh_h2;3,32;€/kg
-;;Levelized Cost of Carbon;calc_lcon_mea;0,05;€/kg
-;;Levelized Cost of Naphtha;calc_lcof_naph;3875,91;€/t
-;;Levelized Cost of Kerosin;calc_lcof_saf;3821,72;€/t
-;;Levelized Cost of FT (Kerosin+Naphtha);calc_lcof_ft;3811,99;€/t
+;;Levelized Cost of Electrolysis;calc_lcoh_pem;3,46;€/kg
+;;Levelized Cost of Hydrogen;calc_lcoh_h2;3,71;€/kg
+;;Levelized Cost of Carbon;calc_lcon_mea;0,06;€/kg
+;;Levelized Cost of Naphtha;calc_lcof_naph;4440,97;€/t
+;;Levelized Cost of Kerosin;calc_lcof_saf;4386,78;€/t
+;;Levelized Cost of FT (Kerosin+Naphtha);calc_lcof_ft;4377,05;€/t
 ;;;;;
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;3,69;ct/kWh
 ;;Gesamtkosten pro kWh thermisch;calc_cost_q;0,02;ct/kWh_th
@@ -154,4 +154,5 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;6,06;€/kg_SAF
 ;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;5,57;€/kg_SAF
+;;;calc_lcose_ges;4,47;
 ;;;calc_cost_naph;9799,27;
