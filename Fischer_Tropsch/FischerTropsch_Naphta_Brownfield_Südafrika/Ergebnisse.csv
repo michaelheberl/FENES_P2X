@@ -43,8 +43,8 @@ Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;101,85;€/ kWa
 ;;Gesamte Kosten pro Jahr;calc_cost_dac;1551495,23;€/a
 ;;;;;
 Speicher;"H2-Speicher
-Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€ h / kg a
-;;Installierte Kapazität;result_h2s_kapa;5949,33;kg/h
+Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€/ kg a
+;;Installierte Kapazität;result_h2s_kapa;5949,33;kg
 ;;Einspeichern Wasserstoff;result_h2s_flowsum_in;554755,64;kg_H2/a
 ;;Ausspeichern Wasserstoff;result_h2s_flowsum_out;384821,87;kg_H2/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_h2s;2915170,79;€
@@ -69,7 +69,7 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Installierte Kapazität;result_bat_kapa;0,0;kWh
 ;;Installierte Leistung;result_bat_leistung;0,0;kW
 ;;Batterie Ausspeichern;result_bat_flowsum_out;0,0;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;-0,0;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;0,0;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;0,0;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;0,0;€/a
 ;;Annuität;calc_annuity_bat;0,0;€/a
@@ -130,9 +130,9 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Levelized Cost of PV;calc_lcoe_pv;0,0;ct/kWh
 ;;Levelized Cost of Battery;calc_lcoe_bat;0,0;ct/kWh Speichermenge
 ;;Levelized Cost of Electricity;calc_lcoe_mix;2,54;ct/kWh
-;;Levelized Cost of Heatpump;calc_lcoh_hp;0,02;ct/kWh_th
-;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,0;ct/kWh_th
-;;Levelized Cost of Heat;calc_lcoh_q;0,02;ct/kWh_th
+;;Levelized Cost of Heatpump;calc_lcoh_hp;1,83;ct/kWh_th
+;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,37;ct/kWh_th
+;;Levelized Cost of Heat;calc_lcoh_q;1,86;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;0,68;€/kg Speichermenge
 ;;Levelized Cost of Electrolysis;calc_lcoh_pem;2,92;€/kg
 ;;Levelized Cost of Hydrogen;calc_lcoh_h2;3,05;€/kg

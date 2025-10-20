@@ -42,8 +42,8 @@ Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;101,85;€/ kWa
 ;;Gesamte Kosten pro Jahr;calc_cost_dac;438951,84;€/a
 ;;;;;
 Speicher;"H2-Speicher
-Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€ h / kg a
-;;Installierte Kapazität;result_h2s_kapa;3794,36;kg/h
+Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€/ kg a
+;;Installierte Kapazität;result_h2s_kapa;3794,36;kg
 ;;Einspeichern Wasserstoff;result_h2s_flowsum_in;57443,36;kg_H2/a
 ;;Ausspeichern Wasserstoff;result_h2s_flowsum_out;39831,89;kg_H2/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_h2s;1859238,39;€
@@ -126,9 +126,9 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Levelized Cost of PV;calc_lcoe_pv;8,98;ct/kWh
 ;;Levelized Cost of Battery;calc_lcoe_bat;25,07;ct/kWh Speichermenge
 ;;Levelized Cost of Electricity;calc_lcoe_mix;2,78;ct/kWh
-;;Levelized Cost of Heatpump;calc_lcoh_hp;0,02;ct/kWh_th
-;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,03;ct/kWh_th
-;;Levelized Cost of Heat;calc_lcoh_q;0,02;ct/kWh_th
+;;Levelized Cost of Heatpump;calc_lcoh_hp;1,58;ct/kWh_th
+;;Levelized Cost of Heatstorage;calc_lcoh_qs;3,19;ct/kWh_th
+;;Levelized Cost of Heat;calc_lcoh_q;1,66;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;4,21;€/kg Speichermenge
 ;;Levelized Cost of Electrolysis;calc_lcoh_pem;2,31;€/kg
 ;;Levelized Cost of Hydrogen;calc_lcoh_h2;2,55;€/kg

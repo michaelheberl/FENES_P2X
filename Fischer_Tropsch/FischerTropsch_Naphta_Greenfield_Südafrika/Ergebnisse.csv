@@ -43,8 +43,8 @@ Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;101,85;€/ kWa
 ;;Gesamte Kosten pro Jahr;calc_cost_dac;1551495,23;€/a
 ;;;;;
 Speicher;"H2-Speicher
-Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€ h / kg a
-;;Installierte Kapazität;result_h2s_kapa;7217,89;kg/h
+Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€/ kg a
+;;Installierte Kapazität;result_h2s_kapa;7217,89;kg
 ;;Einspeichern Wasserstoff;result_h2s_flowsum_in;93261,26;kg_H2/a
 ;;Ausspeichern Wasserstoff;result_h2s_flowsum_out;64700,44;kg_H2/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_h2s;3536763,73;€
@@ -69,7 +69,7 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Installierte Kapazität;result_bat_kapa;134466,98;kWh
 ;;Installierte Leistung;result_bat_leistung;33616,75;kW
 ;;Batterie Ausspeichern;result_bat_flowsum_out;26780,45;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;30659,25;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;30659,66;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;28507000,73;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;356337,51;€/a
 ;;Annuität;calc_annuity_bat;3747923,05;€/a
@@ -99,8 +99,8 @@ Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;0,0;MWh/a
 ;;Investitionskosten verzinst;calc_verzinstinvest_wka;240445009,82;€
 ;;Gesamte Kosten pro Jahr;calc_cost_wkaon;13803027,45;€/a
 ;;;;;
-Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;111415,94;MWh/a
-;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;11141,59;€/a
+Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;111415,53;MWh/a
+;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;11141,55;€/a
 ;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;0,0;€/a
 ;;;;;
 ;Waerme Verkauf;Waermeverkauf;result_qverkauf_flowsum;1026,48;MWh_th/a
@@ -130,9 +130,9 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Levelized Cost of PV;calc_lcoe_pv;5,6;ct/kWh
 ;;Levelized Cost of Battery;calc_lcoe_bat;15,33;ct/kWh Speichermenge
 ;;Levelized Cost of Electricity;calc_lcoe_mix;3,42;ct/kWh
-;;Levelized Cost of Heatpump;calc_lcoh_hp;0,02;ct/kWh_th
-;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,04;ct/kWh_th
-;;Levelized Cost of Heat;calc_lcoh_q;0,02;ct/kWh_th
+;;Levelized Cost of Heatpump;calc_lcoh_hp;1,75;ct/kWh_th
+;;Levelized Cost of Heatstorage;calc_lcoh_qs;3,61;ct/kWh_th
+;;Levelized Cost of Heat;calc_lcoh_q;1,84;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;4,93;€/kg Speichermenge
 ;;Levelized Cost of Electrolysis;calc_lcoh_pem;2,73;€/kg
 ;;Levelized Cost of Hydrogen;calc_lcoh_h2;2,77;€/kg
