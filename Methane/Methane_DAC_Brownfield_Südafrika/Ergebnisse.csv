@@ -53,14 +53,14 @@ Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€/ kg a
 ;;Gesamte Kosten pro Jahr;calc_cost_h2s;126281,4;€/a
 ;;;;;
 ;Wärmespeicher;Annuität je Kapazität;annuity_qs;0,18;€/ kWh_th a
-;;Installierte Kapazität;result_qs_kapa;0,0;kWh_th
+;;Installierte Kapazität;result_qs_kapa;-0,0;kWh_th
 ;;Einspeichern Wasserstoff;result_qs_flowsum_in;-0,0;kWh_th/a
 ;;Ausspeichern Wasserstoff;result_qs_flowsum_out;-0,0;kWh_th/a
-;;Investitionskosten unverzinst;calc_gesamtinvest_qs;0,0;€
-;;Betriebskosten Fix;calc_opex_fix_qs;0,0;€/a
-;;Annuität;calc_annuity_qs;0,0;€/a
-;;Investitionskosten verzinst;calc_verzinstinvest_qs;0,0;€
-;;Gesamte Kosten pro Jahr;calc_cost_qs;0,0;€/a
+;;Investitionskosten unverzinst;calc_gesamtinvest_qs;-0,0;€
+;;Betriebskosten Fix;calc_opex_fix_qs;-0,0;€/a
+;;Annuität;calc_annuity_qs;-0,0;€/a
+;;Investitionskosten verzinst;calc_verzinstinvest_qs;-0,0;€
+;;Gesamte Kosten pro Jahr;calc_cost_qs;-0,0;€/a
 ;;;;;
 ;"Batterie
 Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
@@ -126,14 +126,14 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Levelized Cost of PV;calc_lcoe_pv;0,0;ct/kWh
 ;;Levelized Cost of Battery;calc_lcoe_bat;0,0;ct/kWh Speichermenge
 ;;Levelized Cost of Electricity;calc_lcoe_mix;2,54;ct/kWh
-;;Levelized Cost of Heatpump;calc_lcoh_hp;1,49;ct/kWh_th
+;;Levelized Cost of Heatpump;calc_lcoh_hp;1,63;ct/kWh_th
 ;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,0;ct/kWh_th
-;;Levelized Cost of Heat;calc_lcoh_q;1,49;ct/kWh_th
+;;Levelized Cost of Heat;calc_lcoh_q;1,63;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;0,71;€/kg Speichermenge
-;;Levelized Cost of Electrolysis;calc_lcoh_pem;2,35;€/kg
-;;Levelized Cost of Hydrogen;calc_lcoh_h2;2,44;€/kg
+;;Levelized Cost of Electrolysis;calc_lcoh_pem;2,61;€/kg
+;;Levelized Cost of Hydrogen;calc_lcoh_h2;2,71;€/kg
 ;;Levelized Cost of Carbon;calc_lcon_dac;0,17;€/kg
-;;Levelized Cost of Methane;calc_lcof_mg;1676,81;€/t
+;;Levelized Cost of Methane;calc_lcof_mg;1814,33;€/t
 ;;;;;
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;2,54;ct/kWh
 ;;Gesamtkosten pro kWh thermisch;calc_cost_q;0,01;ct/kWh_th
@@ -143,3 +143,4 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;2,09;€/kg_CH4
 ;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;2,04;€/kg_CH4
+;;;calc_lcose_ges;3,08;

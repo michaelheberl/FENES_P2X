@@ -126,14 +126,14 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Levelized Cost of PV;calc_lcoe_pv;0,0;ct/kWh
 ;;Levelized Cost of Battery;calc_lcoe_bat;0,0;ct/kWh Speichermenge
 ;;Levelized Cost of Electricity;calc_lcoe_mix;1,96;ct/kWh
-;;Levelized Cost of Heatpump;calc_lcoh_hp;1,35;ct/kWh_th
+;;Levelized Cost of Heatpump;calc_lcoh_hp;1,43;ct/kWh_th
 ;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,61;ct/kWh_th
-;;Levelized Cost of Heat;calc_lcoh_q;1,36;ct/kWh_th
+;;Levelized Cost of Heat;calc_lcoh_q;1,44;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;1,29;€/kg Speichermenge
-;;Levelized Cost of Electrolysis;calc_lcoh_pem;1,89;€/kg
-;;Levelized Cost of Hydrogen;calc_lcoh_h2;1,99;€/kg
+;;Levelized Cost of Electrolysis;calc_lcoh_pem;2,04;€/kg
+;;Levelized Cost of Hydrogen;calc_lcoh_h2;2,14;€/kg
 ;;Levelized Cost of Carbon;calc_lcon_dac;0,16;€/kg
-;;Levelized Cost of Methane;calc_lcof_mg;1450,53;€/t
+;;Levelized Cost of Methane;calc_lcof_mg;1528,17;€/t
 ;;;;;
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;1,96;ct/kWh
 ;;Gesamtkosten pro kWh thermisch;calc_cost_q;0,01;ct/kWh_th
@@ -143,3 +143,4 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;1,77;€/kg_CH4
 ;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;1,65;€/kg_CH4
+;;;calc_lcose_ges;2,26;
