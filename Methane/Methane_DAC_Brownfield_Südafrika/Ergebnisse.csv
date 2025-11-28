@@ -53,14 +53,14 @@ Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€/ kg a
 ;;Gesamte Kosten pro Jahr;calc_cost_h2s;126281,4;€/a
 ;;;;;
 ;Wärmespeicher;Annuität je Kapazität;annuity_qs;0,18;€/ kWh_th a
-;;Installierte Kapazität;result_qs_kapa;-0,0;kWh_th
+;;Installierte Kapazität;result_qs_kapa;0,0;kWh_th
 ;;Einspeichern Wasserstoff;result_qs_flowsum_in;-0,0;kWh_th/a
 ;;Ausspeichern Wasserstoff;result_qs_flowsum_out;-0,0;kWh_th/a
-;;Investitionskosten unverzinst;calc_gesamtinvest_qs;-0,0;€
-;;Betriebskosten Fix;calc_opex_fix_qs;-0,0;€/a
-;;Annuität;calc_annuity_qs;-0,0;€/a
-;;Investitionskosten verzinst;calc_verzinstinvest_qs;-0,0;€
-;;Gesamte Kosten pro Jahr;calc_cost_qs;-0,0;€/a
+;;Investitionskosten unverzinst;calc_gesamtinvest_qs;0,0;€
+;;Betriebskosten Fix;calc_opex_fix_qs;0,0;€/a
+;;Annuität;calc_annuity_qs;0,0;€/a
+;;Investitionskosten verzinst;calc_verzinstinvest_qs;0,0;€
+;;Gesamte Kosten pro Jahr;calc_cost_qs;0,0;€/a
 ;;;;;
 ;"Batterie
 Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa

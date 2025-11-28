@@ -31,8 +31,8 @@ Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;101,85;€/ kWa
 ;;Gesamte Kosten pro Jahr;calc_cost_asu;67076,67;€/a
 ;;;;;
 Speicher;"H2-Speicher
-Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€ h / kg a
-;;Installierte Kapazität;result_h2s_kapa;3449,52;kg/h
+Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€/ kg a
+;;Installierte Kapazität;result_h2s_kapa;3449,52;kg
 ;;Einspeichern Wasserstoff;result_h2s_flowsum_in;51165,12;kg_H2/a
 ;;Ausspeichern Wasserstoff;result_h2s_flowsum_out;35478,45;kg_H2/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_h2s;1690264,94;€
