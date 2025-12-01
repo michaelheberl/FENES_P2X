@@ -1,0 +1,116 @@
+﻿Prozess;Variable;Einheit;Run_1;Run_2;Run_3;Run_4
+;;;;;;
+Inputs;capex_pem;€/kW_el;1000;3000;;
+;capex_pv;€/kW;;;800;1200
+;;;;;;
+Outputs;annuity_pem;€/ kWa;101,85;305,56;152,78;152,78
+;result_pem_leistung;kW;4561,07;3245,33;4025,52;4025,52
+;result_pem_flowsum_elin;MWh/a;32836,87;25306,52;30209,89;30209,89
+;result_pem_flowsum_h2out;kg_H2/a;656737,46;506130,43;604197,75;604197,75
+;calc_gesamtinvest_pem;€;4561068,22;9736003,64;6038284,35;6038284,35
+;calc_opex_fix_pem;€/a;136832,05;292080,11;181148,53;181148,53
+;calc_annuity_pem;€/a;464554,87;991633,48;615012,6;615012,6
+;calc_verzinstinvest_pem;€;9291097,45;19832669,52;12300251,97;12300251,97
+;calc_cost_pem;€/a;601386,92;1283713,59;796161,13;796161,13
+;;;;;;
+;annuity_hb;€ h/ kg a;849,67;849,67;849,67;849,67
+;result_hb_flowsum_nh3out;kg_NH3/a;2500104;2500104;2500104;2500104
+;result_hb_flowsum_h2in;kg_H2/a;445018,51;445018,51;445018,51;445018,51
+;result_hb_flowsum_n2in;kg_N2/a;2055085,49;2055085,49;2055085,49;2055085,49
+;result_hb_flowsum_elin;MWh/a;4500,19;4500,19;4500,19;4500,19
+;calc_gesamtinvest_hb;€;2588578;2588578;2588578;2588578
+;calc_opex_fix_hb;€/a;129428,9;129428,9;129428,9;129428,9
+;calc_annuity_hb;€/a;242494,83;242494,83;242494,83;242494,83
+;calc_verzinstinvest_hb;€;6062370,66;6062370,66;6062370,66;6062370,66
+;calc_cost_hb;€/a;371923,73;371923,73;371923,73;371923,73
+;;;;;;
+;annuity_asu;€ h/ kg a;186,42;186,42;186,42;186,42
+;result_asu_leistung;kW_el;56,3;56,3;56,3;56,3
+;result_asu_flowsum_elin;MWh/a;493,22;493,22;493,22;493,22
+;result_asu_flowsum_n2out;kg_N2/a;2055085,49;2055085,49;2055085,49;2055085,49
+;calc_gesamtinvest_asu;€;466851,61;466851,61;466851,61;466851,61
+;calc_opex_fix_asu;€/a;23342,58;23342,58;23342,58;23342,58
+;calc_annuity_asu;€/a;43734,09;43734,09;43734,09;43734,09
+;calc_verzinstinvest_asu;€;1093352,23;1093352,23;1093352,23;1093352,23
+;calc_cost_asu;€/a;67076,67;67076,67;67076,67;67076,67
+;;;;;;
+;annuity_h2s;€/ kg a;39,32;39,32;39,32;39,32
+;result_h2s_kapa;kg;3449,52;5092,83;3750,85;3750,85
+;result_h2s_flowsum_in;kg_H2/a;51165,12;52707,47;51163,88;51163,88
+;result_h2s_flowsum_out;kg_H2/a;35478,45;36500,53;35474,39;35474,39
+;calc_gesamtinvest_h2s;€;1690264,94;2495485,23;1837918,85;1837918,85
+;calc_opex_fix_h2s;€/a;16902,65;24954,85;18379,19;18379,19
+;calc_annuity_h2s;€/a;135631,23;200244,19;147479,36;147479,36
+;calc_verzinstinvest_h2s;€;2712624,64;4004883,83;2949587,27;2949587,27
+;calc_cost_h2s;€/a;152533,88;225199,04;165858,55;165858,55
+;;;;;;
+;annuity_bat_leistung;€/ kWa;55,74;55,74;55,74;55,74
+;annuity_bat_kapa;€/ kWh a;13,94;13,94;13,94;13,94
+;result_bat_kapa;kWh;8797,16;8837,15;8797;8797
+;result_bat_leistung;kW;2199,29;2209,29;2199,25;2199,25
+;result_bat_flowsum_out;MWh/a;1060,9;898,52;1005,35;1005,35
+;result_bat_flowsum_in;MWh/a;1214,97;1028,65;1151,22;1151,22
+;calc_gesamtinvest_bat;€;1864998,6;1873474,94;1864964,1;1864964,1
+;calc_opex_fix_bat;€/a;23312,48;23418,44;23312,05;23312,05
+;calc_annuity_bat;€/a;245198,41;246312,83;245193,87;245193,87
+;calc_verzinstinvest_bat;€;3677976,15;3694692,39;3677908,11;3677908,11
+;calc_cost_bat;€/a;268510,89;269731,26;268505,93;268505,93
+;;;;;;
+;result_strombezug_flowsum;MWh/a;0;0;0;0
+;calc_strombezug_kosten;€/a;0;0;0;0
+;;;;;;
+;annuity_pv;€/ kWa;80,41;80,41;58,48;87,72
+;result_pv_leistung;kW;887,7;897,29;887,66;887,66
+;result_pv_flowsum_generation;MWh/a;971,74;982,24;971,7;971,7
+;calc_gesamtinvest_pv;€;976465,26;987019,97;710125,31;1065187,97
+;calc_opex_fix_pv;€/a;15836,49;16007,67;15835,79;15835,79
+;calc_opex_var_pv;€/a;0;0;0;0
+;calc_annuity_pv;€/a;71380,36;72151,92;51910,71;77866,06
+;calc_verzinstinvest_pv;€;1784509,03;1803797,96;1297767,65;1946651,48
+;calc_cost_pv;€/a;87216,85;88159,59;67746,5;93701,85
+;;;;;;
+;annuity_wkaon;€/ kWa;82,89;82,89;82,89;82,89
+;result_wka_leistung;kW;5928,51;5771,83;5929,14;5929,14
+;result_wka_flowsum_generation;MWh/a;38752,54;37728,39;38756,71;38756,71
+;calc_gesamtinvest_wka;€;6402786,37;6233573,6;6403475,11;6403475,11
+;calc_opex_fix_wkaon;€/a;75173,45;73186,77;75181,54;75181,54
+;calc_opex_var_wkaon;€/a;193762,72;188641,96;193783,56;193783,56
+;calc_annuity_wka;€/a;491390,23;478403,78;491443,09;491443,09
+;calc_verzinstinvest_wka;€;12284755,85;11960094,44;12286077,31;12286077,31
+;calc_cost_wkaon;€/a;760326,41;740232,51;760408,2;760408,2
+;;;;;;
+;result_stromverkauf_flowsum;MWh/a;1739,93;8280,57;4379,24;4379,24
+;calc_einnahmen_stromverkauf_schattenvariable;€/a;173,99;828,06;437,92;437,92
+;calc_einnahmen_stromverkauf;€/a;0;0;0;0
+;;;;;;
+;result_h2verkauf_flowsum;kg_H2/a;196032,28;44904,97;143489,74;143489,74
+;calc_einnahmen_h2verkauf;€/a;294048,42;67357,45;215234,62;215234,62
+;;;;;;
+;result_nh3verkauf_flowsum;kg_NH3/a;2500104;2500104;2500104;2500104
+;calc_einnahmen_nh3verkauf;€/a;2000083,2;2000083,2;2000083,2;2000083,2
+;;;;;;
+;calc_verzinstinvest_gesamt;€;36906686,02;48451861,02;39667315,2;40316199,02
+;calc_gesamtinvest;€;18551013,01;24380986,99;19910197,34;20265259,99
+;;;;;;
+;calc_opex_gesamt;€/a;614591,33;771061,28;660412,15;660412,15
+;calc_verzinstinvest_annuity_gesamt;€/a;1694384,03;2274975,1;1837268,55;1863223,9
+;calc_einnahmen_gesamt;€/a;2294131,62;2067440,65;2215317,82;2215317,82
+;calc_ausgaben_gesamt;€/a;2308975,35;3046036,39;2497680,7;2523636,05
+;calc_GuV;€/a;-14843,73;-978595,73;-282362,89;-308318,24
+;calc_cost_gesamt;€/a;2308975,35;3046036,39;2497680,7;2523636,05
+;calc_lcoe_wka;ct/kWh;1,96;1,96;1,96;1,96
+;calc_lcoe_pv;ct/kWh;8,98;8,98;6,97;9,64
+;calc_lcoe_bat;ct/kWh Speichermenge;25,31;30,02;26,71;26,71
+;calc_lcoe_mix;ct/kWh;2,81;2,84;2,76;2,83
+;calc_lcoh_h2s;€/kg Speichermenge;4,3;6,17;4,68;4,68
+;calc_lcoh_pem;€/kg;2,32;3,95;2,7;2,73
+;calc_lcoh_h2;€/kg;2,55;4,4;2,97;3,01
+;calc_lcon_asu;€/kg;0,04;0,04;0,04;0,04
+;calc_lcof_hb;€/t;686,09;1015,39;759,82;766,94
+;calc_cost_el;ct/kWh;2,81;2,84;2,76;2,83
+;calc_cost_h2;€/kg;2,55;4,4;2,97;3,01
+;calc_cost_n2;€/kg;0,04;0,04;0,04;0,04
+;calc_cost_nh3;€/t;686,09;1015,39;759,82;766,94
+;;;;;;
+;calc_maxprice;€/kg_NH3;0,92;1,22;1;1,01
+;calc_price;€/kg_NH3;0,81;1,19;0,91;0,92
