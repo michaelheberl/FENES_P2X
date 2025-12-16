@@ -1,70 +1,70 @@
 ﻿Kategorie;Technologie;Beschreibung;Variable;Wert;Einheit
-Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;101,85;€/ kWa
-;;Installierte Leistung;result_pem_leistung;4944,53;kW
-;;Strombedarf;result_pem_flowsum_elin;29319,95;MWh/a
-;;Wasserstoffprofuktion;result_pem_flowsum_h2out;586398,98;kg_H2/a
-;;Investitionskosten unverzinst;calc_gesamtinvest_pem;4944528,52;€
-;;Betriebskosten Fix;calc_opex_fix_pem;148335,86;€/a
-;;Annuität;calc_annuity_pem;503611,15;€/a
-;;Investitionskosten verzinst;calc_verzinstinvest_pem;10072223,03;€
-;;Gesamte Kosten pro Jahr;calc_cost_pem;651947,01;€/a
+Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;152,778313;€/ kWa
+;;Installierte Leistung;result_pem_leistung;3921,109412;kW
+;;Strombedarf;result_pem_flowsum_elin;26493,929191;MWh/a
+;;Wasserstoffprofuktion;result_pem_flowsum_h2out;529878,583826;kg_H2/a
+;;Investitionskosten unverzinst;calc_gesamtinvest_pem;5881664,118438;€
+;;Betriebskosten Fix;calc_opex_fix_pem;176449,923553;€/a
+;;Annuität;calc_annuity_pem;599060,482019;€/a
+;;Investitionskosten verzinst;calc_verzinstinvest_pem;11981209,640375;€
+;;Gesamte Kosten pro Jahr;calc_cost_pem;775510,405572;€/a
 ;;;;;
-;Methanolsynthese;Annuität je Leistung;annuity_ms;478,7;€ h/ kg a
+;Methanolsynthese;Annuität je Leistung;annuity_ms;478,698561;€ h/ kg a
 ;;Methanolproduktion;result_ms_flowsum_ch3ohout;2500104,0;kg_CH3OH/a
-;;Wasserstoffbedarf;result_ms_flowsum_h2in;472519,66;kg_H2/a
+;;Wasserstoffbedarf;result_ms_flowsum_h2in;472519,656;kg_H2/a
 ;;Kohlendioxidbedarf;result_ms_flowsum_co2in;3437643,0;kg_CO2/a
-;;Strombedarf;result_ms_flowsum_elin;3750,16;MWh/a
+;;Strombedarf;result_ms_flowsum_elin;3750,156;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_ms;1458394,0;€
 ;;Betriebskosten Fix;calc_opex_fix_ms;72919,7;€/a
-;;Annuität;calc_annuity_ms;136620,57;€/a
-;;Investitionskosten verzinst;calc_verzinstinvest_ms;3415514,23;€
-;;Gesamte Kosten pro Jahr;calc_cost_ms;209540,27;€/a
+;;Annuität;calc_annuity_ms;136620,569297;€/a
+;;Investitionskosten verzinst;calc_verzinstinvest_ms;3415514,232418;€
+;;Gesamte Kosten pro Jahr;calc_cost_ms;209540,269297;€/a
 ;;;;;
-;Heatpump;Annuität je Leistung;annuity_hp;56,17;€/ kW_th a
-;;Installierte Leistung;result_hp_leistung;192,1;kW_el
-;;Strombedarf;result_hp_flowsum_elin;1626,97;MWh_el/a
-;;Waermeproduktion;result_hp_flowsum_qout;6025808,4;MWh_th/a
-;;Investitionskosten unverzinst;calc_gesamtinvest_hp;498037,21;€
-;;Betriebskosten Fix;calc_opex_fix_hp;9960,74;€/a
-;;Annuität;calc_annuity_hp;39963,79;€/a
-;;Investitionskosten verzinst;calc_verzinstinvest_hp;799275,89;€
-;;Gesamte Kosten pro Jahr;calc_cost_hp;49924,54;€/a
+;Heatpump;Annuität je Leistung;annuity_hp;56,169811;€/ kW_th a
+;;Installierte Leistung;result_hp_leistung;268,505776;kW_el
+;;Strombedarf;result_hp_flowsum_elin;1658,843293;MWh_el/a
+;;Waermeproduktion;result_hp_flowsum_qout;6143864,049687;MWh_th/a
+;;Investitionskosten unverzinst;calc_gesamtinvest_hp;696126,087048;€
+;;Betriebskosten Fix;calc_opex_fix_hp;13922,521741;€/a
+;;Annuität;calc_annuity_hp;55858,958236;€/a
+;;Investitionskosten verzinst;calc_verzinstinvest_hp;1117179,164713;€
+;;Gesamte Kosten pro Jahr;calc_cost_hp;69781,479977;€/a
 ;;;;;
-;CO2-Bereitstellung / Direct Air Capture;Annuität je Leistung;annuity_dac;768,56;€ h/ kg a
-;;Installierte Leistung;result_dac_leistung;196,21;kW_el
-;;Strombedarf;result_dac_flowsum_elin;1718,82;MWh/a
+;CO2-Bereitstellung / Direct Air Capture;Annuität je Leistung;annuity_dac;768,562373;€ h/ kg a
+;;Installierte Leistung;result_dac_leistung;196,2125;kW_el
+;;Strombedarf;result_dac_flowsum_elin;1718,8215;MWh/a
 ;;Wärmebedarf;result_dac_flowsum_qin;6015875,25;MWh_th/a
 ;;Kohlendioxidproduktion;result_dac_flowsum_co2out;3437643,0;kg_CO2/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_dac;2746975,0;€
 ;;Betriebskosten Fix;calc_opex_fix_dac;137348,75;€/a
-;;Annuität;calc_annuity_dac;301603,09;€/a
-;;Investitionskosten verzinst;calc_verzinstinvest_dac;4524046,34;€
-;;Gesamte Kosten pro Jahr;calc_cost_dac;438951,84;€/a
+;;Annuität;calc_annuity_dac;301603,089188;€/a
+;;Investitionskosten verzinst;calc_verzinstinvest_dac;4524046,337821;€
+;;Gesamte Kosten pro Jahr;calc_cost_dac;438951,839188;€/a
 ;;;;;
 Speicher;"H2-Speicher
-Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,32;€/ kg a
-;;Installierte Kapazität;result_h2s_kapa;2517,96;kg
-;;Einspeichern Wasserstoff;result_h2s_flowsum_in;95707,26;kg_H2/a
-;;Ausspeichern Wasserstoff;result_h2s_flowsum_out;66369,54;kg_H2/a
-;;Investitionskosten unverzinst;calc_gesamtinvest_h2s;1233798,5;€
-;;Betriebskosten Fix;calc_opex_fix_h2s;12337,99;€/a
-;;Annuität;calc_annuity_h2s;99003,18;€/a
-;;Investitionskosten verzinst;calc_verzinstinvest_h2s;1980063,68;€
-;;Gesamte Kosten pro Jahr;calc_cost_h2s;111341,17;€/a
+Druckspeicher ";Annuität je Kapazität;annuity_h2s;39,318868;€/ kg a
+;;Installierte Kapazität;result_h2s_kapa;1653,887787;kg
+;;Einspeichern Wasserstoff;result_h2s_flowsum_in;65956,838978;kg_H2/a
+;;Ausspeichern Wasserstoff;result_h2s_flowsum_out;45741,691723;kg_H2/a
+;;Investitionskosten unverzinst;calc_gesamtinvest_h2s;810405,0158;€
+;;Betriebskosten Fix;calc_opex_fix_h2s;8104,050158;€/a
+;;Annuität;calc_annuity_h2s;65028,99514;€/a
+;;Investitionskosten verzinst;calc_verzinstinvest_h2s;1300579,902801;€
+;;Gesamte Kosten pro Jahr;calc_cost_h2s;73133,045298;€/a
 ;;;;;
-;Wärmespeicher;Annuität je Kapazität;annuity_qs;0,18;€/ kWh_th a
-;;Installierte Kapazität;result_qs_kapa;3525,89;kWh_th
-;;Einspeichern Wasserstoff;result_qs_flowsum_in;136281,23;kWh_th/a
-;;Ausspeichern Wasserstoff;result_qs_flowsum_out;126348,08;kWh_th/a
-;;Investitionskosten unverzinst;calc_gesamtinvest_qs;9978,26;€
-;;Betriebskosten Fix;calc_opex_fix_qs;299,35;€/a
-;;Annuität;calc_annuity_qs;649,1;€/a
-;;Investitionskosten verzinst;calc_verzinstinvest_qs;19473,01;€
-;;Gesamte Kosten pro Jahr;calc_cost_qs;948,45;€/a
+;Wärmespeicher;Annuität je Kapazität;annuity_qs;0,184096;€/ kWh_th a
+;;Installierte Kapazität;result_qs_kapa;40082,377336;kWh_th
+;;Einspeichern Wasserstoff;result_qs_flowsum_in;1409095,913546;kWh_th/a
+;;Ausspeichern Wasserstoff;result_qs_flowsum_out;1285393,267444;kWh_th/a
+;;Investitionskosten unverzinst;calc_gesamtinvest_qs;113433,12786;€
+;;Betriebskosten Fix;calc_opex_fix_qs;3402,993836;€/a
+;;Annuität;calc_annuity_qs;7378,987753;€/a
+;;Investitionskosten verzinst;calc_verzinstinvest_qs;221369,632588;€
+;;Gesamte Kosten pro Jahr;calc_cost_qs;10781,981589;€/a
 ;;;;;
 ;"Batterie
-Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
-;;Annuität je Kapazität;annuity_bat_kapa;13,94;€/ kWh a
+Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,744881;€/ kWa
+;;Annuität je Kapazität;annuity_bat_kapa;13,93622;€/ kWh a
 ;;Installierte Kapazität;result_bat_kapa;0,0;kWh
 ;;Installierte Leistung;result_bat_leistung;0,0;kW
 ;;Batterie Ausspeichern;result_bat_flowsum_out;0,0;MWh/a
@@ -75,72 +75,70 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,74;€/ kWa
 ;;Investitionskosten verzinst;calc_verzinstinvest_bat;0,0;€
 ;;Gesamte Kosten pro Jahr;calc_cost_bat;0,0;€/a
 ;;;;;
-Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;1637,15;MWh/a
-;;Kosten Netzbezug;calc_strombezug_kosten;278151,77;€/a
+Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;2786,695512;MWh/a
+;;Kosten Netzbezug;calc_strombezug_kosten;473459,567513;€/a
 ;;;;;
-;PV;Annuität je Leistung;annuity_pv;80,41;€/ kWa
-;;Installierte Leistung;result_pv_leistung;3889,56;kW
-;;PV-Strom Erzeugung;result_pv_flowsum_generation;5013,92;MWh/a
-;;Investitionskosten unverzinst;calc_gesamtinvest_pv;4278512,58;€
-;;Betriebskosten Fix;calc_opex_fix_pv;69389,69;€/a
+;PV;Annuität je Leistung;annuity_pv;80,410845;€/ kWa
+;;Installierte Leistung;result_pv_leistung;3936,069539;kW
+;;PV-Strom Erzeugung;result_pv_flowsum_generation;5073,877032;MWh/a
+;;Investitionskosten unverzinst;calc_gesamtinvest_pv;4329676,492653;€
+;;Betriebskosten Fix;calc_opex_fix_pv;70219,480572;€/a
 ;;Betriebskosten Var;calc_opex_var_pv;0,0;€/a
-;;Annuität;calc_annuity_pv;312762,56;€/a
-;;Investitionskosten verzinst;calc_verzinstinvest_pv;7819063,95;€
-;;Gesamte Kosten pro Jahr;calc_cost_pv;382152,25;€/a
+;;Annuität;calc_annuity_pv;316502,679298;€/a
+;;Investitionskosten verzinst;calc_verzinstinvest_pv;7912566,982442;€
+;;Gesamte Kosten pro Jahr;calc_cost_pv;386722,159869;€/a
 ;;;;;
-;Wind Onshore;Annuität je Leistung;annuity_wkaon;82,89;€/ kWa
-;;Installierte Leistung ;result_wka_leistung;12683,34;kW
-;;Windstrom Erzeugung;result_wka_flowsum_generation;37029,28;MWh/a
-;;Investitionskosten unverzinst;calc_gesamtinvest_wka;13698004,7;€
-;;Betriebskosten Fix;calc_opex_fix_wkaon;160824,72;€/a
-;;Betriebskosten Var;calc_opex_var_wkaon;185146,42;€/a
-;;Annuität;calc_annuity_wka;1051271,33;€/a
-;;Investitionskosten verzinst;calc_verzinstinvest_wka;26281783,2;€
-;;Gesamte Kosten pro Jahr;calc_cost_wkaon;1397242,47;€/a
+;Wind Onshore;Annuität je Leistung;annuity_wkaon;82,886016;€/ kWa
+;;Installierte Leistung ;result_wka_leistung;11769,994349;kW
+;;Windstrom Erzeugung;result_wka_flowsum_generation;34362,757442;MWh/a
+;;Investitionskosten unverzinst;calc_gesamtinvest_wka;12711593,896877;€
+;;Betriebskosten Fix;calc_opex_fix_wkaon;149243,528345;€/a
+;;Betriebskosten Var;calc_opex_var_wkaon;171813,787208;€/a
+;;Annuität;calc_annuity_wka;975567,937844;€/a
+;;Investitionskosten verzinst;calc_verzinstinvest_wka;24389198,446097;€
+;;Gesamte Kosten pro Jahr;calc_cost_wkaon;1296625,253397;€/a
 ;;;;;
-Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;7264,46;MWh/a
-;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;726,45;€/a
-;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;0,0;€/a
+Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;8601,580002;MWh/a
+;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;-0,0;€/a
 ;;;;;
-;Waerme Verkauf;Waermeverkauf;result_qverkauf_flowsum;0,0;MWh_th/a
-;;Schattenvariable Einnahmen Wärmeverkauf;calc_einnahmen_qverkauf_schattenvariable;0,0;€/a
-;;Einnahmen aus Wärmeverkauf;calc_einnnahmen_qverkauf;0,0;€/a
+;Waerme Verkauf;Waermeverkauf;result_qverkauf_flowsum;4286,153585;MWh_th/a
+;;Einnahmen aus Wärmeverkauf;calc_einnnahmen_qverkauf;-0,0;€/a
 ;;;;;
-;Wasserstoff Verkauf;Wasserstoffverkauf;result_h2verkauf_flowsum;84541,6;kg_H2/a
-;;Einnahmen aus Wasserstoffverkauf;calc_einnahmen_h2verkauf;126812,4;€/a
+;Wasserstoff Verkauf;Wasserstoffverkauf;result_h2verkauf_flowsum;37143,780571;kg_H2/a
+;;Einnahmen aus Wasserstoffverkauf;calc_einnahmen_h2verkauf;55715,670856;€/a
 ;;;;;
 ;Methanol Verkauf;Methanolverkauf;result_ch3ohverkauf_flowsum;2500104,0;kg_CH3OH/a
 ;;Einnahmen aus Methanolverkauf;calc_einnahmen_ch3ohverkauf;1500062,4;€/a
 ;;;;;
-Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinvest_gesamt;54911443,31;€
-;;Gesamte unverzinste Investitionskosten;calc_gesamtinvest;28868228,77;€
+Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinvest_gesamt;54861664,339256;€
+;;Gesamte unverzinste Investitionskosten;calc_gesamtinvest;28748267,738676;€
 ;;;;;
-;Pro Jahr;Gesamte Betriebskosten pro Jahr;calc_opex_gesamt;1074714,98;€/a
-;;Gesamte Annuität pro Jahr;calc_annuity_gesamt;2445484,77;€/a
-;;Gesamte Einnahmen pro Jahr;calc_einnahmen_gesamt;1626874,8;€/a
-;;Gesamte Ausgaben pro Jahr;calc_ausgaben_gesamt;3520199,76;€/a
-;;Gewinn/Verlust pro Jahr;calc_GuV;-1893324,96;€/a
-;;Gesamte Ausgaben pro Jahr Technologien;calc_cost_gesamt;3520199,76;€/a
+;Pro Jahr;Gesamte Betriebskosten pro Jahr;calc_opex_gesamt;1276884,302926;€/a
+;;Gesamte Annuität pro Jahr;calc_annuity_gesamt;2457621,698774;€/a
+;;Gesamte Einnahmen pro Jahr;calc_einnahmen_gesamt;1555778,070856;€/a
+;;Gesamte Ausgaben pro Jahr;calc_ausgaben_gesamt;3734506,0017;€/a
+;;Gewinn/Verlust pro Jahr;calc_GuV;-2178727,930844;€/a
+;;Gesamte Ausgaben pro Jahr Technologien;calc_cost_gesamt;3734506,0017;€/a
 ;;;;;
-;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;3,77;ct/kWh
-;;Levelized Cost of PV;calc_lcoe_pv;7,62;ct/kWh
+;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;3,773345;ct/kWh
+;;Levelized Cost of PV;calc_lcoe_pv;7,621828;ct/kWh
 ;;Levelized Cost of Battery;calc_lcoe_bat;0,0;ct/kWh Speichermenge
-;;Levelized Cost of Electricity;calc_lcoe_mix;4,23;ct/kWh
-;;Levelized Cost of Heatpump;calc_lcoh_hp;2,1;ct/kWh_th
-;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,75;ct/kWh_th
-;;Levelized Cost of Heat;calc_lcoh_q;2,12;ct/kWh_th
-;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;1,68;€/kg Speichermenge
-;;Levelized Cost of Electrolysis;calc_lcoh_pem;3,47;€/kg
-;;Levelized Cost of Hydrogen;calc_lcoh_h2;3,66;€/kg
-;;Levelized Cost of Carbon;calc_lcon_dac;0,19;€/kg
-;;Levelized Cost of Methanol;calc_lcof_ms;1104,5;€/t
+;;Levelized Cost of Electricity;calc_lcoe_mix;6,414916;ct/kWh
+;;Levelized Cost of Heatpump;calc_lcoh_hp;2,867819;ct/kWh_th
+;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,838808;ct/kWh_th
+;;Levelized Cost of Heat;calc_lcoh_q;3,108058;ct/kWh_th
+;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;1,598827;€/kg Speichermenge
+;;Levelized Cost of Electrolysis;calc_lcoh_pem;4,67102;€/kg
+;;Levelized Cost of Hydrogen;calc_lcoh_h2;5,274894;€/kg
+;;Levelized Cost of Carbon;calc_lcon_dac;;€/kg
+;;Levelized Cost of Methanol;calc_lcof_ms;1471,45492;€/t
 ;;;;;
-;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;4,23;ct/kWh
-;;Gesamtkosten pro kWh thermisch;calc_cost_q;0,02;ct/kWh_th
-;;Gesamtkosten pro kg Wasserstoff;calc_cost_h2;3,42;€/kg
-;;Gesamtkosten pro kg Kohlendioxid;calc_cost_co2;0,18;€/kg
-;;Gesamtkosten pro t Methanol;calc_cost_ch3oh;1045,74;€/t
+;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;6,414916;ct/kWh
+;;Gesamtkosten pro kWh thermisch;calc_cost_q;3,108058;ct/kWh_th
+;;Gesamtkosten pro kg Wasserstoff;calc_cost_h2;5,274894;€/kg
+;;Gesamtkosten pro kg Kohlendioxid;calc_cost_co2;0,214155;€/kg
+;;Gesamtkosten pro t Methanol;calc_cost_ch3oh;1471,45492;€/t
 ;;;;;
-;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;1,41;€/kg_CH3OH
-;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;1,36;€/kg_CH3OH
-;;;calc_lcose_ges;4,71;
+;Verkaufspreiseanalyse;Maximaler Verkaufspreis Bilanznull;calc_maxprice;1,49374;€/kg_CH3OH
+;;Verkaufspreis Bilanznull mit Vorverkauf;calc_price;1,471455;€/kg_CH3OH
+;;;calc_lcon_mea;0,214155;
