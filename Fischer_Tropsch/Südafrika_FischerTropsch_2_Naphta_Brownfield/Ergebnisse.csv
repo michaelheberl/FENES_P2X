@@ -45,8 +45,8 @@ Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;185,905449;€/ kWa
 Speicher;"H2-Speicher
 Druckspeicher ";Annuität je Kapazität;annuity_h2s;49,167109;€/ kg a
 ;;Installierte Kapazität;result_h2s_kapa;0,0;kg
-;;Einspeichern Wasserstoff;result_h2s_flowsum_in;-0,0;kg_H2/a
-;;Ausspeichern Wasserstoff;result_h2s_flowsum_out;-0,0;kg_H2/a
+;;Einspeichern Wasserstoff;result_h2s_flowsum_in;0,0;kg_H2/a
+;;Ausspeichern Wasserstoff;result_h2s_flowsum_out;0,0;kg_H2/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_h2s;0,0;€
 ;;Betriebskosten Fix;calc_opex_fix_h2s;0,0;€/a
 ;;Annuität;calc_annuity_h2s;0,0;€/a
@@ -105,8 +105,8 @@ Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;23227,019486;MWh/a
 ;Waerme Verkauf;Waermeverkauf;result_qverkauf_flowsum;0,0;MWh_th/a
 ;;Einnahmen aus Wärmeverkauf;calc_einnnahmen_qverkauf;-0,0;€/a
 ;;;;;
-;Wasserstoff Verkauf;Wasserstoffverkauf;result_h2verkauf_flowsum;-0,0;kg_H2/a
-;;Einnahmen aus Wasserstoffverkauf;calc_einnahmen_h2verkauf;-0,0;€/a
+;Wasserstoff Verkauf;Wasserstoffverkauf;result_h2verkauf_flowsum;0,0;kg_H2/a
+;;Einnahmen aus Wasserstoffverkauf;calc_einnahmen_h2verkauf;0,0;€/a
 ;;;;;
 ;Naphtha Verkauf;Naphthaverkauf;result_naphverkauf_flowsum;975040,56;kg_Naphtha/a
 ;;Einnahmen aus Naphthaverkauf;calc_einnahmen_naphverkauf;536272,308;€/a
