@@ -23,7 +23,7 @@ Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;185,905449;€/ kWa
 Speicher;"H2-Speicher
 Druckspeicher ";Annuität je Kapazität;annuity_h2s;49,167109;€/ kg a
 ;;Installierte Kapazität;result_h2s_kapa;0,0;kg
-;;Einspeichern Wasserstoff;result_h2s_flowsum_in;-0,0;kg_H2/a
+;;Einspeichern Wasserstoff;result_h2s_flowsum_in;0,0;kg_H2/a
 ;;Ausspeichern Wasserstoff;result_h2s_flowsum_out;-0,0;kg_H2/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_h2s;0,0;€
 ;;Betriebskosten Fix;calc_opex_fix_h2s;0,0;€/a
@@ -74,8 +74,8 @@ Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;7213,633408;MWh/a
 ;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;;€/a
 ;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;-0,0;€/a
 ;;;;;
-;Wasserstoff Verkauf;Wasserstoffverkauf;result_h2verkauf_flowsum;-0,0;kg_H2/a
-;;Einnahmen aus Wasserstoffverkauf;calc_einnahmen_h2verkauf;-0,0;€/a
+;Wasserstoff Verkauf;Wasserstoffverkauf;result_h2verkauf_flowsum;0,0;kg_H2/a
+;;Einnahmen aus Wasserstoffverkauf;calc_einnahmen_h2verkauf;0,0;€/a
 ;;;;;
 ;Methane Verkauf;Methaneverkauf;result_ch4verkauf_flowsum;2500104,0;kg_CH4/a
 ;;Einnahmen aus Methaneverkauf;calc_einnahmen_ch4verkauf;4250176,8;€/a

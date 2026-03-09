@@ -6,7 +6,7 @@ Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;185,905449;€/ kWa
 ;;Investitionskosten unverzinst;calc_gesamtinvest_pem;13271100,0;€
 ;;Betriebskosten Fix;calc_opex_fix_pem;398133,0;€/a
 ;;Annuität;calc_annuity_pem;1644779,873043;€/a
-;;Investitionskosten verzinst;calc_verzinstinvest_pem;32895597,460867;€
+;;Investitionskosten verzinst;calc_verzinstinvest_pem;32895597,460866;€
 ;;Gesamte Kosten pro Jahr;calc_cost_pem;2042912,873043;€/a
 ;;;;;
 ;Fischer Tropsch;Annuität je Leistung;annuity_ft;2145,731943;€ h/ kg a
@@ -47,8 +47,8 @@ Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;185,905449;€/ kWa
 Speicher;"H2-Speicher
 Druckspeicher ";Annuität je Kapazität;annuity_h2s;49,167109;€/ kg a
 ;;Installierte Kapazität;result_h2s_kapa;0,0;kg
-;;Einspeichern Wasserstoff;result_h2s_flowsum_in;0,0;kg_H2/a
-;;Ausspeichern Wasserstoff;result_h2s_flowsum_out;0,0;kg_H2/a
+;;Einspeichern Wasserstoff;result_h2s_flowsum_in;-0,0;kg_H2/a
+;;Ausspeichern Wasserstoff;result_h2s_flowsum_out;-0,0;kg_H2/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_h2s;0,0;€
 ;;Betriebskosten Fix;calc_opex_fix_h2s;0,0;€/a
 ;;Annuität;calc_annuity_h2s;0,0;€/a
@@ -81,6 +81,9 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,109987;€/ kWa
 Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;28709,434856;MWh/a
 ;;Kosten Netzbezug;calc_strombezug_kosten;2669977,441586;€/a
 ;;;;;
+;Wasserstoff;Wasserstoff Bezug;result_h2bezug_flowsum;0,0;kg_H2/a
+;;Kosten Wasserstoffbezug;calc_h2bezug_kosten;0,0;€/a
+;;;;;
 ;Biogas;Biogas Bezug;result_biogasbezug_flowsum;27688651,8;kg_CH4/a
 ;;Kosten Biogas;calc_biogasbezug_kosten;0,0;€/a
 ;;;;;
@@ -110,8 +113,8 @@ Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;11233,004724;MWh/a
 ;Waerme Verkauf;Waermeverkauf;result_qverkauf_flowsum;0,0;MWh_th/a
 ;;Einnahmen aus Wärmeverkauf;calc_einnnahmen_qverkauf;-0,0;€/a
 ;;;;;
-;Wasserstoff Verkauf;Wasserstoffverkauf;result_h2verkauf_flowsum;0,0;kg_H2/a
-;;Einnahmen aus Wasserstoffverkauf;calc_einnahmen_h2verkauf;0,0;€/a
+;Wasserstoff Verkauf;Wasserstoffverkauf;result_h2verkauf_flowsum;-0,0;kg_H2/a
+;;Einnahmen aus Wasserstoffverkauf;calc_einnahmen_h2verkauf;-0,0;€/a
 ;;;;;
 ;Naphtha Verkauf;Naphthaverkauf;result_naphverkauf_flowsum;1025042,64;kg_Naphtha/a
 ;;Einnahmen aus Naphthaverkauf;calc_einnahmen_naphverkauf;563773,452;€/a
@@ -134,7 +137,7 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;Levelized Cost of Battery;calc_lcoe_bat;0,0;ct/kWh Speichermenge
 ;;Levelized Cost of Electricity;calc_lcoe_mix;5,396429;ct/kWh
 ;;Levelized Cost of Heatpump;calc_lcoh_hp;2,418665;ct/kWh_th
-;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,0;ct/kWh_th
+;;Levelized Cost of Heatstorage;calc_lcoh_qs;3,782923;ct/kWh_th
 ;;Levelized Cost of Heat;calc_lcoh_q;2,418665;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;0,0;€/kg Speichermenge
 ;;Levelized Cost of Electrolysis;calc_lcoh_pem;4,016168;€/kg

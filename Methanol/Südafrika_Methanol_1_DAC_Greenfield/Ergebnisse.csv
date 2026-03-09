@@ -22,8 +22,8 @@ Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;185,905449;€/ kWa
 ;;;;;
 ;Heatpump;Annuität je Leistung;annuity_hp;70,238728;€/ kW_th a
 ;;Installierte Leistung;result_hp_leistung;205,107868;kW_el
-;;Strombedarf;result_hp_flowsum_elin;1637,302339;MWh_el/a
-;;Waermeproduktion;result_hp_flowsum_qout;6064082,73763;MWh_th/a
+;;Strombedarf;result_hp_flowsum_elin;1637,303133;MWh_el/a
+;;Waermeproduktion;result_hp_flowsum_qout;6064085,676885;MWh_th/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_hp;531761,139487;€
 ;;Betriebskosten Fix;calc_opex_fix_hp;10635,22279;€/a
 ;;Annuität;calc_annuity_hp;53357,465587;€/a
@@ -54,8 +54,8 @@ Druckspeicher ";Annuität je Kapazität;annuity_h2s;49,167109;€/ kg a
 ;;;;;
 ;Wärmespeicher;Annuität je Kapazität;annuity_qs;0,246653;€/ kWh_th a
 ;;Installierte Kapazität;result_qs_kapa;19329,431914;kWh_th
-;;Einspeichern Wasserstoff;result_qs_flowsum_in;532564,291685;kWh_th/a
-;;Ausspeichern Wasserstoff;result_qs_flowsum_out;484356,804055;kWh_th/a
+;;Einspeichern Wasserstoff;result_qs_flowsum_in;532637,206706;kWh_th/a
+;;Ausspeichern Wasserstoff;result_qs_flowsum_out;484426,77982;kWh_th/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_qs;54702,292316;€
 ;;Betriebskosten Fix;calc_opex_fix_qs;1641,068769;€/a
 ;;Annuität;calc_annuity_qs;4767,66995;€/a
@@ -67,8 +67,8 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,109987;€/ kWa
 ;;Annuität je Kapazität;annuity_bat_kapa;13,777497;€/ kWh a
 ;;Installierte Kapazität;result_bat_kapa;6750,637728;kWh
 ;;Installierte Leistung;result_bat_leistung;1687,659432;kW
-;;Batterie Ausspeichern;result_bat_flowsum_out;1948,699372;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;2229,858758;MWh/a
+;;Batterie Ausspeichern;result_bat_flowsum_out;1695,389532;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;1940,65321;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;1431135,198393;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;17889,18998;€/a
 ;;Annuität;calc_annuity_bat;186013,777845;€/a
@@ -98,7 +98,7 @@ Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;0,0;MWh/a
 ;;Investitionskosten verzinst;calc_verzinstinvest_wka;50425277,252671;€
 ;;Gesamte Kosten pro Jahr;calc_cost_wkaon;2700701,133576;€/a
 ;;;;;
-Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;50513,017178;MWh/a
+Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;50548,912092;MWh/a
 ;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;-0,0;€/a
 ;;;;;
 ;Waerme Verkauf;Waermeverkauf;result_qverkauf_flowsum;0,0;MWh_th/a
@@ -122,20 +122,20 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;3,045895;ct/kWh
 ;;Levelized Cost of PV;calc_lcoe_pv;0,0;ct/kWh
-;;Levelized Cost of Battery;calc_lcoe_bat;10,463542;ct/kWh Speichermenge
+;;Levelized Cost of Battery;calc_lcoe_bat;12,02691;ct/kWh Speichermenge
 ;;Levelized Cost of Electricity;calc_lcoe_mix;7,669379;ct/kWh
 ;;Levelized Cost of Heatpump;calc_lcoh_hp;3,126006;ct/kWh_th
-;;Levelized Cost of Heatstorage;calc_lcoh_qs;1,323144;ct/kWh_th
-;;Levelized Cost of Heat;calc_lcoh_q;3,257587;ct/kWh_th
+;;Levelized Cost of Heatstorage;calc_lcoh_qs;1,322953;ct/kWh_th
+;;Levelized Cost of Heat;calc_lcoh_q;3,257588;ct/kWh_th
 ;;Levelized Cost of Hydrogen Storage;calc_lcoh_h2s;2,400934;€/kg Speichermenge
 ;;Levelized Cost of Electrolysis;calc_lcoh_pem;5,363256;€/kg
-;;Levelized Cost of Hydrogen;calc_lcoh_h2;6,83136;€/kg
+;;Levelized Cost of Hydrogen;calc_lcoh_h2;6,831359;€/kg
 ;;Levelized Cost of Carbon;calc_lcon_dac;;€/kg
 ;;Levelized Cost of Methanol;calc_lcof_ms;1832,450876;€/t
 ;;;;;
 ;Gesamtkosten pro Energieträger;Gesamtkosten pro kWh;calc_cost_el;7,669379;ct/kWh
-;;Gesamtkosten pro kWh thermisch;calc_cost_q;3,257587;ct/kWh_th
-;;Gesamtkosten pro kg Wasserstoff;calc_cost_h2;6,83136;€/kg
+;;Gesamtkosten pro kWh thermisch;calc_cost_q;3,257588;ct/kWh_th
+;;Gesamtkosten pro kg Wasserstoff;calc_cost_h2;6,831359;€/kg
 ;;Gesamtkosten pro kg Kohlendioxid;calc_cost_co2;0,239171;€/kg
 ;;Gesamtkosten pro t Methanol;calc_cost_ch3oh;1832,450876;€/t
 ;;;;;

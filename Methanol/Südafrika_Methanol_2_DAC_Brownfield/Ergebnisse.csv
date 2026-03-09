@@ -22,7 +22,7 @@ Konverter;PEM Elektrolyse;Annuität je Leistung;annuity_pem;185,905449;€/ kWa
 ;;;;;
 ;Heatpump;Annuität je Leistung;annuity_hp;70,238728;€/ kW_th a
 ;;Installierte Leistung;result_hp_leistung;185,420812;kW_el
-;;Strombedarf;result_hp_flowsum_elin;1624,286318;MWh_el/a
+;;Strombedarf;result_hp_flowsum_elin;1624,286317;MWh_el/a
 ;;Waermeproduktion;result_hp_flowsum_qout;6015875,25;MWh_th/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_hp;480720,625;€
 ;;Betriebskosten Fix;calc_opex_fix_hp;9614,4125;€/a

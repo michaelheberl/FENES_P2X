@@ -67,8 +67,8 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;55,109987;€/ kWa
 ;;Annuität je Kapazität;annuity_bat_kapa;13,777497;€/ kWh a
 ;;Installierte Kapazität;result_bat_kapa;2886,879966;kWh
 ;;Installierte Leistung;result_bat_leistung;721,719991;kW
-;;Batterie Ausspeichern;result_bat_flowsum_out;779,565604;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;892,052643;MWh/a
+;;Batterie Ausspeichern;result_bat_flowsum_out;925,520682;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;1059,022346;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;612018,55275;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;7650,231909;€/a
 ;;Annuität;calc_annuity_bat;79547,958317;€/a
@@ -98,7 +98,7 @@ Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;0,0;MWh/a
 ;;Investitionskosten verzinst;calc_verzinstinvest_wka;106004118,129399;€
 ;;Gesamte Kosten pro Jahr;calc_cost_wkaon;5677419,29432;€/a
 ;;;;;
-Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;103629,913046;MWh/a
+Senken;Stromnetz;Stromverkauf;result_stromverkauf_flowsum;103608,89842;MWh/a
 ;;Schattenvariable Einnahmen Stromverkauf;calc_einnahmen_stromverkauf_schattenvariable;;€/a
 ;;Einnahmen aus Stromverkauf;calc_einnahmen_stromverkauf;-0,0;€/a
 ;;;;;
@@ -124,7 +124,7 @@ Energiesystem;Lebensdauer;Gesamte verzinste Investitionskosten;calc_verzinstinve
 ;;;;;
 ;Gestehungskosten;Levelized Cost of Wind;calc_lcoe_wka;3,045895;ct/kWh
 ;;Levelized Cost of PV;calc_lcoe_pv;0,0;ct/kWh
-;;Levelized Cost of Battery;calc_lcoe_bat;11,185485;ct/kWh Speichermenge
+;;Levelized Cost of Battery;calc_lcoe_bat;9,421528;ct/kWh Speichermenge
 ;;Levelized Cost of Electricity;calc_lcoe_mix;6,974449;ct/kWh
 ;;Levelized Cost of Heatpump;calc_lcoh_hp;2,962789;ct/kWh_th
 ;;Levelized Cost of Heatstorage;calc_lcoh_qs;0,887581;ct/kWh_th

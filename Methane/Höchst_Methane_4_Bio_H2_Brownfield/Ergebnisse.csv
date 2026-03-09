@@ -37,7 +37,7 @@ Li-Ion";Annuität je Leistung;annuity_bat_leistung;46,552921;€/ kWa
 ;;Installierte Kapazität;result_bat_kapa;0,0;kWh
 ;;Installierte Leistung;result_bat_leistung;0,0;kW
 ;;Batterie Ausspeichern;result_bat_flowsum_out;0,0;MWh/a
-;;Batterie Einspeichern;result_bat_flowsum_in;0,0;MWh/a
+;;Batterie Einspeichern;result_bat_flowsum_in;-0,0;MWh/a
 ;;Investitionskosten unverzinst;calc_gesamtinvest_bat;0,0;€
 ;;Betriebskosten Fix;calc_opex_fix_bat;0,0;€/a
 ;;Annuität;calc_annuity_bat;0,0;€/a
@@ -48,7 +48,7 @@ Quellen;Stromnetz;Netzbezug Strom;result_strombezug_flowsum;0,0;MWh/a
 ;;Kosten Netzbezug;calc_strombezug_kosten;0,0;€/a
 ;;;;;
 ;Wasserstoff;Wasserstoff Bezug;result_h2bezug_flowsum;387264,950575;kg_H2/a
-;;Kosten Wasserstoffbezug;calc_h2bezug_kosten;1936324,752873;€/a
+;;Kosten Wasserstoffbezug;calc_h2bezug_kosten;1936324,752874;€/a
 ;;;;;
 ;Biogas;Biogas Bezug;result_biogasbezug_flowsum;6350264,16;kg_CH4/a
 ;;Kosten Biogas;calc_biogasbezug_kosten;0,0;€/a
