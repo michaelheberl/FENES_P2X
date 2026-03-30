@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: "Heberl"
+    given-names: "Michael"
+    affiliation: "OTH Regensburg, Forschungsstelle für Energienetze und Energiespeicher"
+    orcid: ""
+  - family-names: "Geiss"
+    given-names: "Timon"
+    affiliation: "OTH Regensburg, Forschungsstelle für Energienetze und Energiespeicher"
+    orcid: "https://orcid.org/0009-0001-0535-3847"
+title: "Titel des Projekts"
+type: thesis
+thesis-type: "Master's Thesis"
+year: 2026
+month: 8
+institution:
+  name: "Ostbayerische Technische Hochschule Regensburg, Forschungsstelle für Energienetze und Energiespeicher"
+  address: "Seybothstraße 2, 93053 Regensburg"
+  country: DE
+url: "https://github.com/timongeiss/FENES_P2X/"
